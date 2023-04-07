@@ -9,51 +9,35 @@ redirect_from:
 
 {% include base_path %}
 
+[PDF](/files/oncv.pdf)
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+
+* B.Math in Pure Mathematics and Combinatorics and Optimization, University of Waterloo, 1979
+* M.Sc. in Computer Science, University of Toronto, 1981
+* Ph.D in Computer Science, University of Toronto, 1984
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 1987-1994 Assistant Professor, University of Geneva
+* 1994-1996 Associate Professor of Computer Science, University of Bern
+* 1996-2021 Full Professor of Computer Science, University of Bern
+* 2022-present Soul polisher, feenk GmbH
 
-Publications
+Selected Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Selected Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+

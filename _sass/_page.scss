@@ -25,6 +25,10 @@
 
   .page__inner-wrap {
     @include full();
+    
+    background-color: white;
+    padding: 40px 80px;
+    box-sizing: content-box;
 
     .page__content,
     .page__meta,
@@ -73,7 +77,7 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none !important;
 
     &:hover {
       text-decoration: underline;
