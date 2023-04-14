@@ -1,6 +1,6 @@
 ---
-permalink: /
 title: "Oscar Nierstrasz"
+permalink: /
 excerpt: "About me"
 author_profile: true
 redirect_from: 

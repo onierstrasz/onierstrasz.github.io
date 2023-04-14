@@ -1,6 +1,5 @@
 ---
 title: "Oscar Nierstrasz — vCard"
-layout: archive
 permalink: /vcard.html
 ---
 
