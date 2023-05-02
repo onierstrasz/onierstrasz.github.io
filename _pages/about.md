@@ -16,4 +16,6 @@ For more information about my former academic activities, please see my [old SCG
 
 # Upcoming events
 
+*Invited Speaker* at [BATbern50](https://www.berner-architekten-treffen.ch) (Jubiläums-BAT 50, Paul-Klee Center, Bern, 14h30-19h00, Jun. 9, 2023)
+
 *PC Member* of [SLE 2023](https://www.sleconf.org/2023/) (ACM SIGPLAN International Conference on Software Language Engineering &mdash; Cascais, Portugal, co-located with [SPLASH 2023](https://2023.splashcon.org) Oct. 22-27, 2023)
