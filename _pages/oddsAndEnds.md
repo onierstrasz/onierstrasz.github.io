@@ -4,6 +4,8 @@ permalink: /oddsAndEnds/
 author_profile: true
 ---
 
+- [GT in 7'](https://www.youtube.com/playlist?list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ)
+	- YouTube short videos on the Glamorous Toolkit
 - [Nierstrasz family website](https://www.family.nierstrasz.org)
 	- My family tree and related information
 - [Dagstuhls I have attended](/dagstuhl)
