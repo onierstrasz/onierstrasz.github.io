@@ -9,10 +9,10 @@ redirect_from:
 ---
 # About me
 
-I am Professor emeritus of Computer Science at the [University of Bern](http://www.unibe.ch/index_eng.html), where I founded the [Software Composition Group](https://scg.unibe.ch) in 1994.
-I retired from the University at the end of 2021, and am currently working at [feenk.com](https://feenk.com/about/).
-I am co-author of over 400 [publications](/publications), including the open-source books *[Object-Oriented Reengineering Patterns](https://scg.unibe.ch/assets/download/oorp/)* and *[Pharo by Example](http://books.pharo.org)*.
-For more information about my former academic activities, please see my [old SCG home page](https://scg.unibe.ch/legacy/oscar).
+Oscar Nierstrasz is Professor emeritus of Computer Science at the [University of Bern](http://www.unibe.ch/index_eng.html), where he founded the [Software Composition Group](https://scg.unibe.ch) in 1994.
+He retired from the University at the end of 2021, and is currently working at [feenk.com](https://feenk.com/about/).
+He is co-author of over 400 [publications](/publications), including the open-source books *[Object-Oriented Reengineering Patterns](https://scg.unibe.ch/assets/download/oorp/)* and *[Pharo by Example](http://books.pharo.org)*.
+For more information about his former academic activities, please see his [old SCG home page](https://scg.unibe.ch/legacy/oscar).
 
 # Upcoming events
 
