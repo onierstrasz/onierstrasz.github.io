@@ -1,14 +1,14 @@
 ---
 title: "The Death of Object-Oriented Programming"
 collection: talks
-type: "Keynote presentation"
+type: "Invited talk"
 permalink: /talks/2016-04-13-TheDeathOfOOP-FASE2016
 venue: "FASE 2016"
 date: 2016-04-13
 location: "Eindhoven, The Netherlands"
 ---
 
-Invited lecture at FASE-ETAPS 2016 (19th International Conference on Fundamental Approaches to Software Engineering (FASE) — Eindhoven, The Netherlands, April 4-7, 2016)
+Invited talk at [FASE-ETAPS 2016](https://etaps.org/2016/fase.html) (19th International Conference on Fundamental Approaches to Software Engineering (FASE) — Eindhoven, The Netherlands, April 4-7, 2016)
 
 # Abstract
 

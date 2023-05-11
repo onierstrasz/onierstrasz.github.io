@@ -3,7 +3,7 @@ title: "Making Systems Explainable"
 collection: talks
 type: "Keynote presentation"
 permalink: /talks/2022-10-03-VISSOFT-MakingSystemsExplainable
-venue: "VISSOFT 2022 (10th IEEE Working Conference on Software Visualization)"
+venue: "VISSOFT 2022"
 date: 2022-10-03
 location: "Limmasol, Cyprus"
 ---

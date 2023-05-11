@@ -1,14 +1,14 @@
 ---
 title: "Great Moments in the History of OOP"
 collection: talks
-type: "Keynote presentation"
+type: "Invited talk"
 permalink: /talks/2017-09-27-Simula50-GreatMomentsInTheHistoryOfOOP
-venue: "Simula 50 Years (50 years anniversary of Simula, the first object-oriented programming language)"
+venue: "Simula 50 Years"
 date: 2017-09-27
 location: "Oslo, Noway"
 ---
 
-Invited Speaker at [Simula 50 Years](https://www.mn.uio.no/ifi/personer/vit/dag/simula67/50years/): “Great Moments in the History of OOP” (50 years anniversary of Simula, the first object-oriented programming language — Oslo, Norway, Sept. 27, 2017)
+Invited talk at [Simula 50 Years](https://www.mn.uio.no/ifi/personer/vit/dag/simula67/50years/): “Great Moments in the History of OOP” (50 years anniversary of Simula, the first object-oriented programming language — Oslo, Norway, Sept. 27, 2017)
 
 # Abstract
 
