@@ -1,12 +1,28 @@
 ---
-title: Past events
+title: Past and upcoming events
 permalink: /past/
 author_profile: true
 ---
 
-## 2021
+## Upcoming events
 
-- Keynote Speaker for [VISSOFT 2022](https://vissoft.info/2022/) (10th IEEE Working Conference on Software Visualization &mdash; Limmasol, Cyprus, Oct.2-3, 2022)
+- *Invited Speaker* at [BATbern50](https://www.berner-architekten-treffen.ch) (Jubiläums-BAT 50, Paul-Klee Center, Bern, 14h30-19h00, Jun. 9, 2023) — [Mind the gap — 50 years of shortening feedback loops](/talks/2023-06-09-MindTheGap-BATbern50)
+
+- *Guest lecturer* at University of Bern, May 12, 2023 — [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
+
+- *PC Member* of [SLE 2023](https://www.sleconf.org/2023/) (ACM SIGPLAN International Conference on Software Language Engineering &mdash; Cascais, Portugal, co-located with [SPLASH 2023](https://2023.splashcon.org) Oct. 22-27, 2023)
+
+## Past events (1998-present)
+
+## 2023
+
+- *Guest lecturer* at University of Bern, April 6, 2023 — [PEGs, Packrats and Parser Combinators](/teaching/2023-04-06-PEGs)
+
+## 2022
+
+- *Guest lecturer* at University of Bern, May 20, 2022 — [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
+
+- *Keynote Speaker* for [VISSOFT 2022](https://vissoft.info/2022/) (10th IEEE Working Conference on Software Visualization &mdash; Limmasol, Cyprus, Oct.2-3, 2022) — [Making Systems Explainable](/talks/2022-10-03-VISSOFT-MakingSystemsExplainable)
 
 ## 2021
 
@@ -14,7 +30,7 @@ author_profile: true
 
 ## 2020
 
--  Keynote Speaker at [ASE 2020 Doctoral Symposium](https://conf.researchr.org/track/ase-2020/ase-2020-doctoral-symposium) (35th IEEE/ACM International Conference on Automated Software Engineering &mdash; Melbourne, Australia, Sept. 21, 2020) [[pdf slides](%base_url%/download/oscar/TamingYourPhD-ASE2020.pdf)]
+-  Keynote Speaker at [ASE 2020 Doctoral Symposium](https://conf.researchr.org/track/ase-2020/ase-2020-doctoral-symposium) (35th IEEE/ACM International Conference on Automated Software Engineering &mdash; Melbourne, Australia, Sept. 21, 2020) — [Taming your PhD](/talks/2020-09-21-TamingYourPhD-ASE2020)
 - *PC Member* of [SANER 2020](https://saner2020.csd.uwo.ca) (27th IEEE International Conference on Software Analysis, Evolution and Reengineering - London, Ontario, Canada, Feb. 18-21, 2020)
 
 ## 2019
@@ -30,7 +46,7 @@ author_profile: true
 ## 2017
 
 - *PC Member* of [BENEVOL 2017](http://ansymore.uantwerpen.be/events/benevol2017) (16th BElgian-NEtherlands software eVOLution symposium &mdash; University of Antwerp, Belgium, Dec 4-5, 2017)
-- *Invited Speaker* at [Simula 50 Years](https://www.mn.uio.no/ifi/personer/vit/dag/simula67/50years/): ["Great Moments in the History of OOP"](%assets_url%/download/oscar/Simula50/GreatMomentsInOOP+notes.pdf) (50 years anniversary of Simula, the first object-oriented programming language &mdash; Oslo, Norway, Sept. 27, 2017)
+- *Invited Speaker* at [Simula 50 Years](https://www.mn.uio.no/ifi/personer/vit/dag/simula67/50years/) (50 years anniversary of Simula, the first object-oriented programming language &mdash; Oslo, Norway, Sept. 27, 2017) — [Great Moments in the History of OOP](/talks/2017-09-27-Simula50-GreatMomentsInTheHistoryOfOOP)
 - *PC Member* of [ICSME 2017](https://icsme2017.github.io) (International Conference on Software Maintenance and Evolution &mdash; Shanghai, China, Sept. 17-23, 2017)
 - *PC Member* of [SANER 2017](http://saner.aau.at) (International Conference on Software Analysis, Evolution, and Reengineering &mdash;  Klagenfurt, Austria, Feb. 21-24, 2017)
 
@@ -41,7 +57,7 @@ author_profile: true
 - *PC Member* of [Onward! 2016 Essays Track](http://conf.researchr.org/track/onward2016/onward2016-essays) (Splash / Onward! 2016 &mdash;  Amsterdam, The Netherlands, Oct. 30 - Nov. 4, 2016)
 -  *Invited Speaker* at [SATToSE 2016](http://sattose.org/2016/) (9th Seminar Series on Advanced Techniques &amp; Tools for Software Evolution &mdash; Bergen, Norway, July 11&mdash;13, 2016)
 -  *Co-organizer* of [Engineering Academic Software](http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=16252) (Dagstuhl Perspectives Workshop 16252 &mdash; Dagstuhl, Germany, June 19-24, 2016)
--  *Invited Speaker* at [FASE-ETAPS 2016](http://www.etaps.org/index.php/2016/fase) (19th International Conference on Fundamental Approaches to Software Engineering (FASE) &mdash; Eindhoven, The Netherlands, April 4-7, 2016)
+-  *Invited Speaker* at [FASE-ETAPS 2016](http://www.etaps.org/index.php/2016/fase) (19th International Conference on Fundamental Approaches to Software Engineering (FASE) &mdash; Eindhoven, The Netherlands, April 4-7, 2016) — [The Death of Object-Oriented Programming](/talks/2016-04-13-TheDeathOfOOP-FASE2016)
 - *PC Member* of [SANER 2016](http://saner.inf.usi.ch) (International Conference on Software Analysis, Evolution, and Reengineering &mdash;  Osaka, Japan, March 14-18, 2016)
 
 ## 2015
@@ -72,7 +88,7 @@ author_profile: true
 - *PC Member* of [XP 2013](http://xp2013.org/) (14th International Conference on Agile Software Development &mdash; Vienna, Austria, June 3-7, 2013)
 - *PC Member* of [ICSE NIER 2013](http://2013.icse-conferences.org/content/new-ideas-and-emerging-results-nier) (New Ideas and Emerging Results &mdash; San Francisco, USA, May 18-26 2013)
 - *PC Member* of LIVE 2013 ( First International Workshop on Live Programming, colocated with [ICSE 2013](http://2013.icse-conferences.org/) &mdash; San Francisco, USA, May 19, 2013)
-- *Co-organizer* of [PharoConf | MooseDay | 2013](%base_url%/wiki/events/pharoconf-mooseday-2013) (Pharo Conference &mdash; Bern, Switzerland, April 2-4 2013)
+- *Co-organizer* of [PharoConf/MooseDay 2013](https://scg.unibe.ch/wiki/events/pharoconf-mooseday-2013) (Pharo Conference &mdash; Bern, Switzerland, April 2-4 2013)
 - *PC Member* of [SE 2013](http://www.se2013.rwth-aachen.de/) (Software Engineering 2013 &mdash; Aachen, Germany, Feb 26 - March 1, 2013)
 
 ## 2012
@@ -114,7 +130,7 @@ author_profile: true
 - *PC Member* of [SEAA-EDISON 2010](http://seaa2010.liacs.nl/) (Euromicro Special track on Evolution of Distributed, Internet-based and Service-Oriented applicatioNs &mdash; Lille, France, Sept. 1, 2010
 - *PC Member* of [TOOLS 2010](http://malaga2010.lcc.uma.es/) (48th International Conference on Objects, Models, Components, Patterns &mdash; Malaga, Spain, June 28 - July 2, 2010)
 - *PC Member* of RAM-SE 2010 (7th ECOOP Workshop on Reflection, AOP and Meta-Data for Software Evolution, colocated with [ECOOP 2010](http://ecoop2010.uni-mb.si/) &mdash; Maribor, Slovenia, July 22, 2010)
-- *PC Member* of [Suite 2010](%base_url%/wiki/events/suite2010) (2nd Intl. Workshop on Search-driven development: Users, Infrastructure, Tools and Evaluation. Colocated with ICSE 2010,  Cape Town, South Africa, May 1st, 2010)
+- *PC Member* of [Suite 2010](https://scg.unibe.ch/wiki/events/suite2010) (2nd Intl. Workshop on Search-driven development: Users, Infrastructure, Tools and Evaluation. Colocated with ICSE 2010,  Cape Town, South Africa, May 1st, 2010)
 - *PC Member* of [WETSoM 2010](http://www.rcost.unisannio.it/wetsom2010/Home.html) (Workshop on Emerging Trends in Software Metrics. Colocated with ICSE 2010,  Cape Town, South Africa, May 4th, 2010)
 - *PC Member* of [OOPS 2010](http://oops.disi.unige.it/OOPS10/) (Special track on Object-Oriented Programming Languages and Systems at [SAC 2010](http://www.acm.org/conferences/sac/sac2010/) &mdash; Sierre/Lausanne, Switzerland, Mar 22-26, 2010
 - *Invited Speaker* at [SOFSEM 2010](http://www.sofsem.cz/sofsem10/) (36th International Conference on Current Trends in Theory and Practice of Computer Science,  Principles of Software Construction track &mdash; Špindlerův Mlýn, Czech Republic, January 23&mdash;29, 2010)

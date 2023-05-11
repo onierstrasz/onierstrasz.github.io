@@ -6,7 +6,6 @@ author_profile: true
 
 - [GT in 7'](https://www.youtube.com/playlist?list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ): YouTube short videos on the [Glamorous Toolkit](https://gtoolkit.com)
 - [Open source photo](/oscarOpenSourcePicture): A picture you may use if you are advertising a talk I am giving
-- [Past events](/past): A list of events since 1998 that I have participated in as PC member, Program Chair, invited speaker, etc.
 - [Dagstuhls I have attended](/dagstuhl): Workshops I have attended at the marvelous [Schloss Dagstuhl — Leibniz center for informatics](https://www.dagstuhl.de/en)
 - [Some recipes I like](https://github.com/onierstrasz/Notes): A GitHub repo with some random recipes in markdown
 - [Random FAQs](https://github.com/onierstrasz/FAQ): Another GitHub repo with questions and answers on miscellaneous topics
