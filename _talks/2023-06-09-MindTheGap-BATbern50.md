@@ -12,5 +12,5 @@ Invited talk at [BATbern50](https://www.berner-architekten-treffen.ch) (Jubiläu
 
 ## Abstract
 
-There have been many advances in SE over the past 50 years. Each has addressed a gap between expectations or needs and reality. Advances were made by automating or commoditizing some aspect of the software development process. Often the real benefits are not seen in advance simply because opportunities are created that were not possible before. For example DevOps enables real-time experimentation with new features. In this talk, we review several of these advances, and explore some of opportunities they open up.
+There have been many advances in Software Engineering over the past 50 years. Each has addressed a gap between expectations or needs and reality. Advances were made by automating or commoditizing some aspect of the software development process. Often the real benefits are not seen in advance simply because opportunities are created that were not possible before. For example DevOps enables real-time experimentation with new features. In this talk, we review several of these advances, and explore some of opportunities they open up.
 
