@@ -4,7 +4,7 @@ collection: teaching
 type: "Guest lecture"
 permalink: /teaching/2022-05-20-ABitOfSmalltalk
 venue: "University of Bern"
-date: 2022-05-20
+date: 2023-05-12
 location: "Bern, Switzerland"
 ---
 
