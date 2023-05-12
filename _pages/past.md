@@ -14,7 +14,7 @@ author_profile: true
 
 ## Past events (1998-present)
 
-See also: [Dagstuhls I have attended](/dagstuhl)
+See also: [Dagstuhls I have attended](/dagstuhl).
 
 ## 2023
 
