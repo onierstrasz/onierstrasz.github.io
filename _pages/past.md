@@ -14,6 +14,8 @@ author_profile: true
 
 ## Past events (1998-present)
 
+See also: [Dagstuhls I have attended](/dagstuhl)
+
 ## 2023
 
 - *Guest lecturer* at University of Bern, April 6, 2023 — [PEGs, Packrats and Parser Combinators](/teaching/2023-04-06-PEGs)
