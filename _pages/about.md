@@ -10,7 +10,7 @@ redirect_from:
 
 Oscar Nierstrasz is Professor emeritus of Computer Science at the [University of Bern](http://www.unibe.ch/index_eng.html), where he founded the [Software Composition Group](https://scg.unibe.ch) in 1994.
 He retired from the University at the end of 2021, and is currently working at [feenk.com](https://feenk.com/about/) to support onboarding and teaching of moldable development.
-He is co-author of over 400 [publications](/publications), including the open-source books *[Object-Oriented Reengineering Patterns](/oorp)* and *[Pharo by Example](http://books.pharo.org)*.
+He is co-author of over 400 [publications](/publications), including the open-source books *[Object-Oriented Reengineering Patterns](/oorp/)* and *[Pharo by Example](http://books.pharo.org)*.
 
 # Upcoming events
 
