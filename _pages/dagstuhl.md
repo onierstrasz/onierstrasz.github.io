@@ -4,7 +4,7 @@ permalink: /dagstuhl/
 author_profile: true
 ---
 
-Yes, I would love to be invited again!
+This is a list of workshops I have attended at the marvelous [Schloss Dagstuhl — Leibniz center for informatics](https://www.dagstuhl.de/en), and, yes, I would love to be invited again!
 
 | Dates | Event | Description |
 |---|---|---|

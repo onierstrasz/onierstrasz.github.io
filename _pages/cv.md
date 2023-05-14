@@ -29,8 +29,8 @@ A short CV is available in [PDF](/files/oncv.pdf).
 - Supervised or co-supervised:
 	- [40 PhD theses](https://scg.unibe.ch/assets/scgbib/?query=scg-phd&filter=Year)
 	- [88 MSc theses](https://scg.unibe.ch/assets/scgbib/?query=scg-msc&filter=Year)
-	- [153 Bachelors](https://scg.unibe.ch/assets/scgbib/?query=scg-bp&filter=Year)
-	and [undergraduate](https://scg.unibe.ch/assets/scgbib/?query=scg-ip&filter=Year) project theses
+	- [101 Bachelors](https://scg.unibe.ch/assets/scgbib/?query=scg-bp&filter=Year)
+	and [52 undergraduate](https://scg.unibe.ch/assets/scgbib/?query=scg-ip&filter=Year) project theses
 
 # Selected Publications
 
