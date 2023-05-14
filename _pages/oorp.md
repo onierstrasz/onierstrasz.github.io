@@ -8,19 +8,19 @@ sidebar:
 
 ![old and new front covers](/files/oorp/oorp-2x.jpg)
 
-## About this book
+# About this book
 
 *Object-Oriented Reengineering Patterns* collects and distills successful techniques in planning a reengineering project, reverse-engineering, problem detection, migration strategies and software redesign.
 
 When the original edition published by Morgan Kaufmann in 2003 went out of print, the copyright [reverted to the authors](/files/oorp/oorp-copyright-reversion.jpg). We consequently made this volume available under a [Creative Commons Attribution-ShareAlike 3.0 license](http://creativecommons.org/licenses/by-sa/3.0/).
 
-You can [download the book as a free PDF](/files/oorp/OORP.pdf),
+You can [download the book as a free PDF](/files/oorp/OORP-2013-11-27.pdf),
 or you can order a paperback copy from [Lulu](https://www.lulu.com/shop/oscar-nierstrasz-and-serge-demeyer-and-stéphane-ducasse/object-oriented-reengineering-patterns/ebook/product-17gpzm5e.html?q=&page=1&pageSize=4). 
-The original hardcover is now also available from [Amazon](https://www.amazon.com/Object-Oriented-Reengineering-Patterns-Engineering-Programming/dp/1558606394/ref=sr_1_1).
+The original hardcover is also available again from [Amazon](https://www.amazon.com/Object-Oriented-Reengineering-Patterns-Engineering-Programming/dp/1558606394/ref=sr_1_1).
 
-## Contents
+# Contents
 
-The documentation is missing or obsolete, and the original developers have departed. Your team has limited understanding of the system, and unit tests are missing for many, if not all, of the components. When you fix a bug in one place, another bug pops up somewhere else in the system. Long rebuild times make any change difficult. All of these are signs of software that is close to the breaking point.
+*The documentation is missing or obsolete, and the original developers have departed. Your team has limited understanding of the system, and unit tests are missing for many, if not all, of the components. When you fix a bug in one place, another bug pops up somewhere else in the system. Long rebuild times make any change difficult. All of these are signs of software that is close to the breaking point.*
 
 Many systems can be upgraded or simply thrown away if they no longer serve their purpose. Legacy software, however, is crucial for operations and needs to be continually available and upgraded. How can you reduce the complexity of a legacy system sufficiently so that it can continue to be used and adapted at acceptable cost?
 
@@ -30,7 +30,7 @@ Based on the authors' industrial experiences, this book is a guide on how to rev
 >
 > — From the foreword by Martin Fowler
 
-## About the Authors
+# About the Authors
 
 [Serge Demeyer](http://www.win.ua.ac.be/~sdemey/) is a professor in the Department of Mathematics and Computer Science at the University of Antwerp in Belgium.
 [Stéphane Ducasse](http://stephane.ducasse.free.fr/) is a research director at INRIA Lille in France.
