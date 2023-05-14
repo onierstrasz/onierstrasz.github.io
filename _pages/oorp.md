@@ -36,4 +36,4 @@ Based on the authors' industrial experiences, this book is a guide on how to rev
 [Stéphane Ducasse](http://stephane.ducasse.free.fr/) is a research director at INRIA Lille in France.
 [Oscar Nierstrasz](https://www.oscar.nierstrasz.org/) is a professor emeritus of computer science at the University of Bern, and now works for [feenk.com](https://feenk.com/about/).
 
-Published by Square Bracket Associates, Kehrsatz, Switzerland.
+*Published by Square Bracket Associates*
