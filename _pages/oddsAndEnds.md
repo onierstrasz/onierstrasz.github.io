@@ -6,6 +6,7 @@ author_profile: true
 
 - [GT in 7'](https://www.youtube.com/playlist?list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ): YouTube short videos on the [Glamorous Toolkit](https://gtoolkit.com)
 - [Identify the Champion](/champion): an Organisational Pattern Language for Programme Committees
+- [Common Writing Errors](https://scg.unibe.ch/wiki/howtos/commonwritingerrors): Errors that commonly creep into academic writing.
 - [Some recipes I like](https://github.com/onierstrasz/Notes): A GitHub repo with some random recipes in markdown
 - [Random FAQs](https://github.com/onierstrasz/FAQ): Another GitHub repo with questions and answers on miscellaneous topics
 - [Nierstrasz family website](https://www.family.nierstrasz.org): My family tree and related information
