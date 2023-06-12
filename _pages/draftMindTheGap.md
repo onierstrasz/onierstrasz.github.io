@@ -405,7 +405,7 @@ In contrast to model-driven approaches, instead of generating code from models, 
 ***Programming is Understanding***
 
 We can go further, however.
-Kristen Nygaard, one of the inventors of Simula, the first OO language, was apparently fond of saying *“[To program is to understand](https://amturing.acm.org/award_winners/nygaard_5916220.cfm)”*.
+Kristen Nygaard, one of the inventors of Simula, the first OO language, was apparently fond of saying *“[To program is to understand](https://amturing.acm.org/award_winners/nygaard_5916220.cfm).”*
 I would interpret that today as meaning that *software is more than just source code*.
 It can and should be seen as a *living system* can expresses knowledge about itself.
 
