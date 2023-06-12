@@ -101,7 +101,7 @@ Object-oriented programming was born in Norway in 1962, where [Ole-Johan Dahl](h
 and Kristen Nygaard](/assets/images/bat50/simulaDahlNygaard.jpg)](/assets/images/bat50/simulaDahlNygaard.jpg)
 
 They invented objects, classes and inheritance to model real-world simulations as a thin layer on top of ALGOL.
-The resulting language was called [Simula](https://en.wikipedia.org/wiki/Simula), which standardized in 1967.
+The resulting language was called [Simula](https://en.wikipedia.org/wiki/Simula), which was standardized in 1967.
 Roughly 20 years later Bjarne Stroustrup, an experienced Simula programmer, started adding a similar thin layer to C, called “C with Classes”, and later renamed “C++”.
 
 Also during the 1960s, an American computer scientist, [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay), noticed that computer hardware was getting smaller and faster at an astonishing rate.
