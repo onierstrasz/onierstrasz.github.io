@@ -6,14 +6,11 @@ tags:
   - batbern
 ---
 
+*This article is based on an [invited talk](/talks/2023-06-09-MindTheGap-BATbern50) held at the [50th anniversary Berner Architekten Treffen (BAT)](https://www.berner-architekten-treffen.ch/event/50) (Paul-Klee Center, Bern, June 9, 2023).*
+
 *Caveat: This is a DRAFT — the final version will be posted at a different URL.*
 
 ---
-
-*This article is based on an [invited presentation](/talks/2023-06-09-MindTheGap-BATbern50) held at the [50th anniversary Berner Architekten Treffen (BAT)](https://www.berner-architekten-treffen.ch/event/50) (Paul-Klee Center, Bern, June 9, 2023).*
-
----
-# Mind the gap — 50 years of shortening feedback loops
 
 On the occasion of the 50th BAT event, it occurred to me that it has been roughly 50 years since I started programming.
 In that time I've seen quite a few advances in Software Engineering.
@@ -417,17 +414,8 @@ I would like to propose a new mantra, namely: *“The software wants to talk to 
 This means that instead of letting the IDE lock up software inside the prison of a text editor, it should enable the exploration, querying and analysis of live systems.
 Then, instead of having to head to Google, StackOverflow or ChatGPT to answer questions about our software, we should be able to answer the questions we have with the help of the systems themselves.
 
-## External photo sources
-
-- APL prime sieve -- [APL wiki](https://old.aplwiki.com/SieveOfEratosthenes)
-- APL keyboard -- [Wikimedia commons](https://commons.wikimedia.org/wiki/File:APL-keybd2.svg)
-- August 1981 Byte special issue on Smalltalk -- [The Internet Archive](https://archive.org/details/byte-magazine-1981-08)
-- Dahl/Nygaard photo -- [Journal of Object Technology](https://www.jot.fm/issues/issue_2002_09/eulogy/)
-- Margaret Hamilton photo -- [Wikipedia commons](https://en.wikipedia.org/wiki/File:Margaret_Hamilton_-_restoration.jpg)
-- Gang of Four photo -- original source not identified
-- ENIAC -- [National Archives](https://education.blogs.archives.gov/2015/10/08/upcoming-events-for-educators-at-the-national-archives-at-new-york-city/1260_original/)
-
-## Exploring the live slideshow
+---
+# Exploring the live slideshow
 
 The slideshow of the presentation is [available on GitHub](https://github.com/onierstrasz/gt-talks).
 To explore it you should first [download Glamorous toolkit](https://gtoolkit.com/download/).
@@ -453,3 +441,13 @@ BATbern50Slideshow new
 | --- | --- |
 | Load the gt-talks repo | Inspect the BATbern50slideshow |
 
+---
+# External photo sources
+
+- APL prime sieve -- [APL wiki](https://old.aplwiki.com/SieveOfEratosthenes)
+- APL keyboard -- [Wikimedia commons](https://commons.wikimedia.org/wiki/File:APL-keybd2.svg)
+- August 1981 Byte special issue on Smalltalk -- [The Internet Archive](https://archive.org/details/byte-magazine-1981-08)
+- Dahl/Nygaard photo -- [Journal of Object Technology](https://www.jot.fm/issues/issue_2002_09/eulogy/)
+- Margaret Hamilton photo -- [Wikipedia commons](https://en.wikipedia.org/wiki/File:Margaret_Hamilton_-_restoration.jpg)
+- Gang of Four photo -- original source not identified
+- ENIAC -- [National Archives](https://education.blogs.archives.gov/2015/10/08/upcoming-events-for-educators-at-the-national-archives-at-new-york-city/1260_original/)
