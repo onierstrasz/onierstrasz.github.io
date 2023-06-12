@@ -332,7 +332,7 @@ These tests are run on up to 960 processors, or “workers”, on a cluster of A
 Each worker runs a number of test tasks.
 The goal is to run all the tests within 8 minutes, but because tests can take varying lengths of time to complete, this goal is not so trivial to reach.
 
-*The moldable development strategy is to ask questions of the live system, and where the answers are not immediately evidence, to introduce custom views to answer those questions.*
+*The moldable development strategy is to ask questions of the live system, and where the answers are not immediately evident, to introduce custom views to answer those questions.*
 By creating a few custom views, we can get some insight into what's going on in the live system.
 
 In this lightweight visualization we see that a number of workers, i.e., the long grey bars near the bottom, are taking twice as long, but why?
