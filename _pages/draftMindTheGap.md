@@ -10,14 +10,16 @@ tags:
 
 ---
 
-*This article is based on an invited presentation given at the [50th anniversary Berner Architekten Treffen (BAT)](https://www.berner-architekten-treffen.ch/event/50) (Paul-Klee Center, Bern, June 9, 2023).*
+*This article is based on an [invited presentation](/talks/2023-06-09-MindTheGap-BATbern50) held at the [50th anniversary Berner Architekten Treffen (BAT)](https://www.berner-architekten-treffen.ch/event/50) (Paul-Klee Center, Bern, June 9, 2023).*
+
+---
+# Mind the gap — 50 years of shortening feedback loops
 
 On the occasion of the 50th BAT event, it occurred to me that it has been roughly 50 years since I started programming.
 In that time I've seen quite a few advances in Software Engineering.
 I'd like to take this opportunity to reflect on how these advances have not only shortened feedback loops in software development processes, but also how they have enabled new possibilities for innovation.
 
 ---
-
 # The execution gap
 
 My first experience with gaps between expectations and reality in Software Engineering took place in 1972 when I started to learn to program.
@@ -75,7 +77,6 @@ In this case, since the feedback loop is so short with live programming, we can 
 Since this form of experimentation is a new thing, it appears towards the left of the map, so can also be expected to evolve.
 
 ---
-
 # The modeling gap
 
 After high school, I studied Mathematics at Waterloo, and later switched to do a Masters and PhD in Computer Science at UofT.
@@ -114,7 +115,7 @@ The Smalltalk team indeed built not only the Smalltalk language and VM technolog
 
 I read about this and proposed to my supervisor at UofT, Prof. Dennis Tsichritzis, that to build our advanced electronic office systems we needed an object-oriented language and system.
 Since Smalltalk wasn't available for our hardware, we started research into building our own language and system.
-Dennis told me, “Grab a couple of MSc students and go implement an object-oriented system.”
+Dennis told me, *“Grab a couple of MSc students and go implement an object-oriented system.”*
 It was not that easy, but we did manage to come up with [something interesting](https://scg.unibe.ch/assets/scgbib/?query=Nier83b).
 
 ## Closing the modeling gap
@@ -127,7 +128,6 @@ For early adopters of OO technology in the 1980s, this resulted in large, legacy
 [![Wardley map: closing the modeling gap](/assets/images/bat50/OOmodelingMap.png)](/assets/images/bat50/OOmodelingMap.png)
 
 ---
-
 # The productivity gap
 
 Whereas in the 1980s most of the resistance to OO technology came from concerns about performance (after all, every message to an object entails at least one additional indirection), by the 1990s machines were fast enough that developer productivity was seen as being more important.
@@ -164,7 +164,7 @@ One of the key outcomes of this work was the open-source book, *[Object-Oriented
 ## Closing the productivity gap
 
 Design patterns are valuable not only as a way to teach software developers about best practices, but they also offer a way to raise conversations about design to higher levels.
-If I say to you, “Do we need a Singleton here?”, you should immediately understand what's at stake.
+If I say to you, *“Do we need a Singleton here?”*, you should immediately understand what's at stake.
 
 Frameworks and components also raise the level of conversation.
 Instead of dealing with many unconnected applications, we deal with a Software Product Line of applications sharing a common code base.
@@ -172,7 +172,6 @@ Instead of dealing with many unconnected applications, we deal with a Software P
 [![Wardley map: closing the productivity gap](/assets/images/bat50/productivityMap.png)](/assets/images/bat50/productivityMap.png)
 
 ---
-
 # The testing Gap
 
 Once upon a time (and also today), testing was a manual process.
@@ -186,7 +185,7 @@ Before automation, manual testing of software systems could be as painful as rew
 Automated testing only started to become popular with the introduction of Kent Beck's [SUnit](https://en.wikipedia.org/wiki/SUnit) framework, and the subsequent [port of SUnit](https://en.wikipedia.org/wiki/Unit_testing#History) by Kent and Erich Gamma to Java.
 
 During the FAMOOS project we were concerned about a particular project we were analyzing, and for which we could find no test cases.
-When we asked, we were told, “Oh, but we have very extensive test cases!” “Great!” we said, “Can we see them?” They then brought us a big book of test cases that some poor person had to manually step through every time the tests were run.
+When we asked, we were told, *“Oh, but we have very extensive test cases!”* *“Great!”* we said, *“Can we see them?”* They then brought us a big book of test cases that some poor person had to manually step through every time the tests were run.
 
 ## Closing the testing gap
 
@@ -204,18 +203,17 @@ For example, [property-based testing](Property Based Testing) can test business 
 When generated tests are ready to replace manually-written tests, there will certainly be new opportunities that can be hard to imagine now.
 
 ---
-
 # The deployment Gap
 
 Although there were many other exciting advances in the 1990s, let us skip ahead.
 
-Earlier we saw the “Execution gap” between design and execution of a running program.
-The deployment gap concerns the gap between having a running and validated system and deploying it with end users.
-Until the introduction of DevOps, this could be a slow and painful manual process.
+Earlier we saw the “execution gap” between design and execution of a running program.
+The *deployment gap* concerns the gap between having a running and validated system and deploying it with end users.
+Until the introduction of [DevOps](https://en.wikipedia.org/wiki/DevOps), this could be a slow and painful manual process.
 
 ## Closing the deployment gap
 
-Although [DevOps](https://en.wikipedia.org/wiki/DevOps) clearly served to automate and close the gap between development and deployment, what is interesting is the new opportunities it created.
+Although DevOps clearly served to automate and close the gap between development and deployment, what is interesting is the new opportunities it created.
 
 [![Wardley map: closing the deployment gap](/assets/images/bat50/devOpsMap.png)](/assets/images/bat50/devOpsMap.png)
 
@@ -223,7 +221,6 @@ In particular, with DevOps it is possible to experimentally introduce new featur
 Without DevOps, the very idea is laughable.
 
 ---
-
 # The sustainability gap
 
 Let us move to the present day.
@@ -233,10 +230,11 @@ Let's take a look for some of the reasons.
 
 ***Mainstream IDEs are glorified text editors***
 
-All mainstream IDEs are pretty much the same: they focus on editing source code.
+All mainstream IDEs are pretty much the same: *they focus on editing source code*.
+
 Why is this a problem?
 First of all, putting a text editor at the center presupposes that you are generally either reading or writing code.
-But we only spend a small part of our time writing code.
+But in fact [we only spend a small part of our time writing code](https://drpicox.medium.com/developers-spend-less-than-10-of-time-coding-51c36c73a93b#:~:text=It%20turns%20out%20that%20the,was%20far%20below%20the%204%25.).
 
 ***Reading code does not scale***
 
@@ -245,7 +243,7 @@ You simply cannot read hundreds of thousands of lines of code, let alone many mi
 
 ***Lightweight tools are more effective than reading code***
 
-One of the key reengineering patterns is *Study the Exceptional Entities*, which helps you to learn quickly about potential problems in a software system by asking questions about outliers, such as very large classes, or classes with many fields but little behavior.
+One of the key reengineering patterns is *[Study the Exceptional Entities](https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Book%3A_Object-Oriented_Reengineering_Patterns_(Demeyer_Ducasse_and_Nierstrasz)/04%3A_Initial_Understanding/4.04%3A_Study_the_Exceptional_Entities)*, which helps you to learn quickly about potential problems in a software system by asking questions about outliers, such as very large classes, or classes with many fields but little behavior.
 Very lightweight tools and metrics can be enough to gain insight into a complex system.
 
 [![System complexity view](/assets/images/bat50/systemComplexity.jpg)](/assets/images/bat50/systemComplexity.jpg)
@@ -260,20 +258,22 @@ In a classical development environment you stare at source code, modify it, then
 When that fails, you go back to staring at the code.
 
 Perhaps you will have a test case or a breakpoint that will land you in a debugger to explore the live object, but from there you can only go back to playing with the source code.
-Worse, if you start from the running application, you may struggle to answer questions such as, “Where is this feature implemented?”
+Worse, if you start from the running application, you may struggle to answer questions such as, *“Where is this feature implemented?”*
 
 ***Q&A tools lack context, so give unreliable results***
 
 When we are at a loss, and no colleague is nearby to lend a hand, we often turn to Google and friends, which sends us to other well-known Q&A sites.
-The problem with the answers we find on these sites os that they lack our specific *context*, so we generally waste considerable time on non-trivial questions to assess their relevance to our problem.
-Although Stack Overflow clearly suffers from this problem, AI-based answers such as those provided by ChatGPT are no better, and in some ways worse, because of the high level of confidence (or hubris?) displayed by the answers.
+The problem with the answers we find on these sites is that they *lack our specific context*, so we can waste considerable time on non-trivial questions to assess their relevance to our problem.
+
+Although Stack Overflow clearly suffers from this problem, statistically-generated answers such as those provided by ChatGPT are no better, and in some ways worse, because of the high level of confidence (or hubris?) displayed by the answers.
 
 |[![Asking StackOverflow a question](/assets/images/bat50/SO.png)](/assets/images/bat50/SO.png)|[![Asking ChatGPT a question](/assets/images/bat50/chatGPT.png)](/assets/images/bat50/chatGPT.png)|
 | --- | --- |
 | A typical StackOverflow answer | A typical ChatGPT answer |
 
-The screenshots show answers I obtained from SO and ChatGPT to actual questions I had about GitHub pages.
+These screenshots show answers I obtained from SO and ChatGPT to actual questions I had about GitHub pages.
 In both cases I struggled to get the information relevant for my context.
+Worse, the answer from ChatGPT looked authoritative, but in fact was fanciful and inaccurate.
 
 ***Plugins are hard to find, hard to build, and hard to compose***
 
@@ -284,57 +284,61 @@ Unluckily plugins are (in my experience) not pleasant to implement, it is hard t
 Finally, plugins don't know anything about your context, so like SO and ChatGPT, the likelihood that they will help you for *your* problem is slim.
 
 ---
-
 # Moldable development
 
-For a software system to be explainable, it must first of all be *explorable*.
+For a software system to be explainable, it must be *explorable*.
 The IDE is more than a text editor.
 
-First, instead of starting to explore a system from source code, we can start from a live object and navigate from there.
+- First, instead of starting to explore a system from source code, we can *start from a live object* and navigate from there.
+- Second, we must be able to answer questions relevant to our *context*. Instead of using off-the-shelf tools or plugins, we should be able to *cheaply build composable tools* specific to our domain.
 
-Second, we must be able to answer questions relevant to our *context*.
-Instead of using off-the-shelf tools or plugins, we should be able to use cheap and composable tools specific to our domain.
-
-For a software system to be explainable, we must be able to explore it.
-To understand the slideshow software, we don't start from the source code but from a live instance.
-
+For example, to understand the slideshow implementation of this presentation, we don't start from the source code but from a live instance.
 We can navigate from the slideshow to its slides, to the Wardley maps, or to the source code, if we need to.
 
 [![Exploring the slideshow](/assets/images/bat50/exploringTheSlideshow.png)](/assets/images/bat50/exploringTheSlideshow.png)
 
+In this screenshot, we create an instance of the `BATbern50Slideshow` class, and inspect it in the [Glamorous Toolkit](https://gtoolkit.com) (AKA GT), an open-source, moldable environment for authoring explainable systems.
+We can explore, for example, the *Slide methods* view to see the methods in order, and for each method we see the *Slide* view, the source code, or other views.
+
 We can similarly explore any kind of system to understand it.
-Here we explore the git repository of this slideshow.
+Here we explore the git repository of the slideshow's source code.
+We can explore the changes, the commits, the packages, and from each entity navigate further to deepen our understanding.
 
 [![Exploring a GitHub repo](/assets/images/bat50/exploringAGitRepo.png)](/assets/images/bat50/exploringAGitRepo.png)
 
-We can explore the changes, the commits, the packages, and from each entity navigate further to deepen our understanding.
 It doesn't matter whether the domain is that of slideshows, git repositories, computer games, social media data or life insurance policies.
-In any case, we can navigate through the network of domain objects to answer our questions, or to navigate to the code, not the other way around.
+In any of these cases, we can navigate through the network of domain objects to answer our questions, or to navigate from the objects to the code, rather than the other way around.
 
-To make systems explainable, you need to be able to add cheap, composable tools (view).
+To make systems explainable, you need to be able to add cheap, composable tools (views).
 Understanding doesn't arise simply from navigating, but from being able to navigate efficiently and effectively to the answers you need.
-This implies that you need to be able to easily and cheaply define your own plugins to mold the IDE To your needs.
+This implies that you need to be able to easily and cheaply define your own plugins to mold the IDE to your needs.
 
 For each of the custom navigational views we have seen, a few lines of code are all that are needed to define them.
 We can ALT-click on the tabs to see the code.
+For example, the Slide deck view is extremely short, and leverages the fact that all the parts are composable.
 
 [![Inspecting the code behind a view](/assets/images/bat50/inspectingTheCodeBehindAView.png)](/assets/images/bat50/inspectingTheCodeBehindAView.png)
 
-For example, the Slides view or the Slide deck view are extremely short, and leverage the fact that all the parts are composable.
 All the views we have seen are examples of custom tools added to a moldable IDE.
 In addition to custom views, there are several other ways the IDE can be molded such as by adding custom actions, search capabilities, and quality advices.
 
 [![Custom views can be cheap toimplement](/assets/images/bat50/customViewsAreCheap.png)](/assets/images/bat50/customViewsAreCheap.png)
 
 The Metrics view of each extension shows that they are generally small and cheap to implement.
+For example, there are nearly 3000 inspector views in the standard GT image, and they average under 12 LOC.
 
 ## Example: exploring Lifeware test runs
 
+[Lifeware](https://www.lifeware.ch/about/) is a company that provides software infrastructure and services for life insurance companies.
 Lifeware has a *very* large number of test cases for their life insurance SPL.
-These are run on a cluster of 960 AWS machines each with 16-64 processors or “workers”.
+These tests are run on up to 960 processors, or “workers”, on a cluster of AWS machines, each with between 16-64 processors.
 Each worker runs a number of test tasks.
-The goal is to run all the tests within 8 minutes.
-In this lightweight visualization we see that a few of these are taking twice as long, but why?
+The goal is to run all the tests within 8 minutes, but because tests can take varying lengths of time to complete, this goal is not so trivial to reach.
+
+*The moldable development strategy is to ask questions of the live system, and where the answers are not immediately evidence, to introduce custom views to answer those questions.*
+By creating a few custom views, we can get some insight into what's going on in the live system.
+
+In this lightweight visualization we see that a number of workers, i.e., the long grey bars near the bottom, are taking twice as long, but why?
 
 [![Exploring Lifeware test runs](/assets/images/bat50/lifeware/1-cluster-view.png)](/assets/images/bat50/lifeware/1-cluster-view.png)
 
@@ -345,24 +349,29 @@ This tells us that there are scheduling issues, and not just with the slowest wo
 
 Since the machines in our cluster are not all the same, we ask if the scheduling issues are related to particular machines.
 Here we inspect the execution timelines of all the workers on a given machine.
+We see that just a few machines are having problems meeting the deadline.
+Is there something special about these machines?
 
 [![rouping workers by machine](/assets/images/bat50/lifeware/3-clusters-by-machine.png)](/assets/images/bat50/lifeware/3-clusters-by-machine.png)
 
-We dive into a particular machine to see what's going one.
-We can see clearly that only one worker is having scheduling problems.
+We dive into a particular machine to see what's going on.
+We can see clearly that only one worker (second from the bottom at the right) is having scheduling issues, so it's clearly nor an issue of the specific machine.
 
 [![Diving into a machine](/assets/images/bat50/lifeware/4-machine-view.png)](/assets/images/bat50/lifeware/4-machine-view.png)
 
+Are there issues with the memory usage?
 We inspect the total VM memory consumption and free memory per worker.
+We see nothing too unusual.
 
 [![VM consumption per worker](/assets/images/bat50/lifeware/5-worker-view.png)](/assets/images/bat50/lifeware/5-worker-view.png)
 
 Finally we can dive into the individual tasks.
 Here we can verify that indeed the problem is just with the scheduling.
 By updating the historical data of the time taken to run each test, we can better schedule the test runs and reduce the delays.
-We were able to perform this analysis because we could turn every question into a cheap and lightweight tool that would let us turn the execution data into an explorable model of the test runs.
 
 [![Inspecting individual tasks](/assets/images/bat50/lifeware/7-task-view.png)](/assets/images/bat50/lifeware/7-task-view.png)
+
+We were able to perform this analysis because we could *turn every question into a cheap and lightweight tool* that would let us transform the execution data into an explorable model of the test runs.
 
 ## Mapping moldable development
 
@@ -377,14 +386,13 @@ Now, instead of manual cobbling together a view, we can easily obtain a view usi
 In the end we can more quickly support decision-making not only for developers, but also business stakeholders.
 
 ---
-
 # Conclusion
 
 What lessons can we draw from all this?
 
 ***Programming is Modeling***
 
-First, I would say, that “programming is modeling”.
+First, I would say, that *“programming is modeling”*.
 
 This is not a new observation, but it can be interpreted in several different ways.
 I found the live programming approach of APL far more exhilarating than the plodding punchcard model of programming supported by FORTRAN, but both languages suffered from a very limited view of what a program is.
@@ -392,23 +400,24 @@ It was just as hard to build a clean conceptual model in APL as it was in FORTRA
 
 Object-oriented programming changed that by allowing not only the design but the domain model to be reflected in the code.
 
-I am reminded of Bertrand Meyer's observation that he could never understand the fascination with modeling notations and CASE tools when everything is there in the code.
-Then one day it hit him: “Bubbles and arrows don't crash!”
+I am reminded of Bertrand Meyer's observation that he could never understand the fascination with modeling notations and CASE tools when *everything is there in the code*.
+Then one day it hit him: *“Bubbles and arrows don't crash!”*
 
-One lesson we can learn from model-driven approaches is that instead of generating code from models, instead we should generate views from the code.
+In contrast to model-driven approaches, instead of generating code from models, perhaps we are better off generating views from the code.
 
 ***Programming is Understanding***
 
 We can go further, however.
 Kristen Nygaard, one of the inventors of Simula, the first OO language, was apparently fond of saying *“[To program is to understand](https://amturing.acm.org/award_winners/nygaard_5916220.cfm)”*.
+I would interpret that today as meaning that *software is more than just source code*.
+It can and should be seen as a *living system* can expresses knowledge about itself.
 
-I would interpret that today as meaning that software is more than just text.
-It can and should be seen as a living system that expresses knowledge about itself.
-Instead of seeing the IDE as a glorified text editor, it should be seen as an environment for exploring, querying and analyzing software systems.
-Instead of having to head to Google, StackOverflow or ChatGPT to answer questions about our software, we should be able to answer the questions in the systems themselves.
-BATbern50Slideshow new slideFor: #programmingIsUnderstanding:
+I would like to propose a new mantra, namely: *“The software wants to talk to you.”*
 
-## Sources
+This means that instead of letting the IDE lock up software inside the prison of a text editor, it should enable the exploration, querying and analysis of live systems.
+Then, instead of having to head to Google, StackOverflow or ChatGPT to answer questions about our software, we should be able to answer the questions we have with the help of the systems themselves.
+
+## External photo sources
 
 - APL prime sieve -- [APL wiki](https://old.aplwiki.com/SieveOfEratosthenes)
 - APL keyboard -- [Wikimedia commons](https://commons.wikimedia.org/wiki/File:APL-keybd2.svg)
@@ -417,4 +426,30 @@ BATbern50Slideshow new slideFor: #programmingIsUnderstanding:
 - Margaret Hamilton photo -- [Wikipedia commons](https://en.wikipedia.org/wiki/File:Margaret_Hamilton_-_restoration.jpg)
 - Gang of Four photo -- original source not identified
 - ENIAC -- [National Archives](https://education.blogs.archives.gov/2015/10/08/upcoming-events-for-educators-at-the-national-archives-at-new-york-city/1260_original/)
+
+## Exploring the live slideshow
+
+The slideshow of the presentation is [available on GitHub](https://github.com/onierstrasz/gt-talks).
+To explore it you should first [download Glamorous toolkit](https://gtoolkit.com/download/).
+
+Then within GT, open a Playground and *evaluate* these snippets:
+```
+Metacello new
+	baseline: 'GtTalks';
+	repository: 'github://onierstrasz/gt-talks:main/src';
+	load
+```
+
+```
+BaselineOfGtTalks loadLepiter
+```
+
+Finally *inspect*:
+```
+BATbern50Slideshow new
+```
+
+|[![Load the gt-talks repo](/assets/images/bat50/loadGtTalks.png)](/assets/images/bat50/loadGtTalks.png)|[![Inspect the BATbern50slideshow](/assets/images/bat50/inspectBatBern50.png)](/assets/images/bat50/inspectBatBern50.png)|
+| --- | --- |
+| Load the gt-talks repo | Inspect the BATbern50slideshow |
 
