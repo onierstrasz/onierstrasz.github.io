@@ -448,6 +448,8 @@ BATbern50Slideshow new
 - APL keyboard -- [Wikimedia commons](https://commons.wikimedia.org/wiki/File:APL-keybd2.svg)
 - August 1981 Byte special issue on Smalltalk -- [The Internet Archive](https://archive.org/details/byte-magazine-1981-08)
 - Dahl/Nygaard photo -- [Journal of Object Technology](https://www.jot.fm/issues/issue_2002_09/eulogy/)
-- Margaret Hamilton photo -- [Wikipedia commons](https://en.wikipedia.org/wiki/File:Margaret_Hamilton_-_restoration.jpg)
+- Margaret Hamilton photo -- [Wikipedia commons](https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)#MIT_Instrumentation_Laboratory_and_the_Apollo_Guidance_Computer)
 - Gang of Four photo -- original source not identified
 - ENIAC -- [National Archives](https://education.blogs.archives.gov/2015/10/08/upcoming-events-for-educators-at-the-national-archives-at-new-york-city/1260_original/)
+
+---
