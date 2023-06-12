@@ -1,0 +1,7 @@
+1-cluster-view.png
+2-clusters-slow-tasks-highlighted.png
+3-clusters-by-machine.png
+4-machine-view.png
+5-worker-view.png
+6-physical-view.png
+7-task-view.png
