@@ -397,7 +397,7 @@ It was just as hard to build a clean conceptual model in APL as it was in FORTRA
 
 Object-oriented programming changed that by allowing not only the design but the domain model to be reflected in the code.
 
-I am reminded of Bertrand Meyer's observation that he could never understand the fascination with modeling notations and CASE tools when *everything is there in the code*.
+I am reminded of [Bertrand Meyer](https://bertrandmeyer.com)'s observation that he could never understand the fascination with modeling notations and CASE tools when *everything is there in the code*.
 Then one day it hit him: *“Bubbles and arrows don't crash!”*
 
 In contrast to model-driven approaches, instead of generating code from models, perhaps we are better off generating views from the code.
