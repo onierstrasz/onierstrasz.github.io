@@ -120,7 +120,6 @@ It was not that easy, but we did manage to come up with [something interesting](
 Object-oriented programming made it possible to trace concepts from requirements through design down to implementation.
 This certainly made it easier to develop software systems, but what is interesting is that this *enabled long-term growth*.
 Not only development, but maintenance and evolution of such systems was facilitated by making it easier to navigate from requirements to code.
-For early adopters of OO technology in the 1980s, this resulted in large, legacy OO systems by the mid 1990s.
 
 [![Wardley map: closing the modeling gap](/assets/images/bat50/map2OOmodeling.png)](/assets/images/bat50/map2OOmodeling.png)
 
@@ -144,7 +143,9 @@ They noticed that the same design ideas appeared in all the systems they had dev
 
 [![The Design Patterns “Gang of Four”](/assets/images/bat50/gangOfFour.jpg)](/assets/images/bat50/gangOfFour.jpg)
 
-Object-oriented programming was so successful that by the mid-1990s there were already large, legacy OO systems.
+Object-oriented programming was so successful that, by the mid 1990s, there were already many, very large OO systems.
+Despite the increased ease of evolution, many of these older OO systems started to show the typical symptoms of legacy systems predicted by Lehman and Belady's [laws of software evolution](https://en.wikipedia.org/wiki/Lehman%27s_laws_of_software_evolution) ...
+
 We started a European project called [FAMOOS](https://scg.unibe.ch/archive/famoos/) in 1996 with industrial partners Nokia and Daimler-Benz to reengineer legacy OO software towards cleaner, more scalable component-based frameworks.
 
 Our strategy was to recover lost design knowledge by reverse engineering and analyzing the legacy software, and then migrating it step-by-step towards a newer and cleaner architecture.
