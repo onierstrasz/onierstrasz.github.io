@@ -29,12 +29,11 @@ We were taught by the amazing [Prof. Lee J. Dickey](https://uwaterloo.ca/pure-ma
 
 APL is facetiously known as a “write-only” language, due to its highly compact notation using Greek letters as array manipulation operators.
 Here we a see a one-line APL program to generate prime numbers.
+I remember writing a similar one-line APL prime sieve that looked something like this one.
 
 [![An APL prime sieve](/assets/images/bat50/aplPrimeSieve.jpg)](/assets/images/bat50/aplPrimeSieve.jpg)
 
 <p class=small><i>[Sources: <a href="https://old.aplwiki.com/SieveOfEratosthenes">APL wiki</a>, <a href="https://commons.wikimedia.org/wiki/File:APL-keybd2.svg">Wikimedia commons</a>]</i></p>
-
-I remember writing a similar one-line APL prime sieve that looked something like this one.
 
 As an amusing parenthesis, I saw this sign displayed in the [Open Air museum in Reykjavik](https://reykjavikcitymuseum.is/arbaer-open-air-museum) in 2015.
 It looks fine, except the “typewriter” was not a typewriter at all.
