@@ -20,4 +20,4 @@ For example DevOps enables real-time experimentation with new features.
 In this talk, we review several of these advances, and explore some of opportunities they open up.
 
 [Blog post based on the talk](/posts/2023-06-12-MindTheGap)
-| [Live slides (GitHub)](https://github.com/onierstrasz/gt-talks)
+| [Slides repo (GitHub)](https://github.com/onierstrasz/gt-talks)
