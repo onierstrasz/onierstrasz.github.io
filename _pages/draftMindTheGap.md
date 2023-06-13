@@ -1,12 +1,12 @@
 ---
-title: "DRAFT -- Mind the gap — 50 years of shortening feedback loops"
+title: "Mind the gap — 50 years of shortening feedback loops"
 date: 2023-06-12
 permalink: /draftMindTheGap
 tags:
   - batbern
 ---
 
-*This article is based on an [invited talk](/talks/2023-06-09-MindTheGap-BATbern50) held at the [50th anniversary Berner Architekten Treffen (BAT)](https://www.berner-architekten-treffen.ch/event/50) (Paul-Klee Center, Bern, June 9, 2023).*
+*This blog post is based on an [invited talk](/talks/2023-06-09-MindTheGap-BATbern50) held at the [50th anniversary Berner Architekten Treffen (BAT)](https://www.berner-architekten-treffen.ch/event/50) (Paul-Klee Center, Bern, June 9, 2023).*
 
 *Caveat: This is a DRAFT — the final version will be posted at a different URL.*
 
@@ -255,7 +255,9 @@ Lightweight tools and metrics can help you to gain insight into a complex system
 In this system complexity view, we map the numbers of attributes, methods and lines of codes to the width, height and color of classes in a hierarchy.
 This immediately highlights classes with abnormally high lines of code, or lots of data with little behavior.
 
-The key question is whether such tools can be cheaply produced to answer other kinds of specific questions about a given software systems.
+While such tools are useful early when investigating a system, they are still generic.
+To support solving concrete problems tools have to take the context of those problems into account.
+The key question is whether such tools can be cheaply produced to answer specific questions about a given software system.
 
 ***Code is disconnected from the running application***
 
@@ -397,8 +399,8 @@ At the next level we see how moldable tools are leveraged by moving from manual 
 We saw this when we browsed the slides of a slideshow or the recent changes of a git repo.
 Now, instead of manual cobbling together a view, we can easily obtain a view using the molded tools.
 
-We can have “inside-out conversations” that emerge from exploring the system itself, instead of classical “outside-in” conversations that treat the software as a passive entity.
-In the end we can more quickly support decision-making not only for developers, but also business stakeholders through such inside-out converstions.
+We can have “inside-out conversations” that emerge from exploring the system itself, instead of classical “outside-in” conversations that treat the software as a black box with inputs and outputs.
+This then allows us to spot risks and opportunities that are observable only inside a system, and to support quick decision making not only for developers, but also business stakeholders.
 
 ---
 # Conclusion
@@ -431,6 +433,8 @@ I would like to propose a new mantra, namely: *“The software wants to talk to 
 
 This means that instead of letting the IDE lock up software inside the prison of a text editor, it should enable the exploration, querying and analysis of live systems.
 Then, instead of having to head to Google, Stack Overflow or ChatGPT to answer questions about our software, we should be able to answer the questions we have with the help of the systems themselves.
+
+<p style="text-align: center;">&#xFE4C;&#xFE4C;&#xFE4C;&#xFE4C;&#xFE4C;</p>
 
 ---
 # Exploring the live slideshow
