@@ -75,7 +75,7 @@ Greyed-out components are those from the past.
 The dark red arrows point to new components that emerge from the evolution.
 
 In this case we see that the source code medium evolves from optical mark cards via punch cards to interactive terminals, shortening the feedback loop.
-Similarly, getting the program to run evolves from sending it by courier to just hitting the execute key.
+Similarly, getting the program to run evolves from sending it by courier to just hitting the “enter” key.
 
 What's interesting, however, is that when the technology is sufficiently evolved, *new opportunities arise* that could not be imagined before.
 In this case, since the feedback loop is so short with live programming, we can *experiment* in ways that were not possible before.
