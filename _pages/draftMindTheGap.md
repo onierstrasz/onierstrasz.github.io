@@ -29,12 +29,11 @@ We were taught by the amazing [Prof. Lee J. Dickey](https://uwaterloo.ca/pure-ma
 
 APL is facetiously known as a “write-only” language, due to its highly compact notation using Greek letters as array manipulation operators.
 Here we a see a one-line APL program to generate prime numbers.
+I remember writing a similar one-line APL prime sieve that looked something like this one.
 
 [![An APL prime sieve](/assets/images/bat50/aplPrimeSieve.jpg)](/assets/images/bat50/aplPrimeSieve.jpg)
 
 <p class=small><i>[Sources: <a href="https://old.aplwiki.com/SieveOfEratosthenes">APL wiki</a>, <a href="https://commons.wikimedia.org/wiki/File:APL-keybd2.svg">Wikimedia commons</a>]</i></p>
-
-I remember writing a similar one-line APL prime sieve that looked something like this one.
 
 As an amusing parenthesis, I saw this sign displayed in the [Open Air museum in Reykjavik](https://reykjavikcitymuseum.is/arbaer-open-air-museum) in 2015.
 It looks fine, except the “typewriter” was not a typewriter at all.
@@ -69,14 +68,14 @@ At the top we see the need for getting our programs running.
 The other nodes are components that contribute to that need.
 From *bottom to top* components provide *more value* to the user, and from *left to right* they *evolve* from *genesis*, through *prototypes*, to *products*, and all the way to *commodities*.
 
-The grey lines show which components contributes to others higher up.
+The grey lines show which components contribute to others higher up.
 So, optical mark cards are sent by courier and contribute to getting the code running.
 The red arrows indicate evolution of components towards products and commodities.
 Greyed-out components are those from the past.
 The dark red arrows point to new components that emerge from the evolution.
 
 In this case we see that the source code medium evolves from optical mark cards via punch cards to interactive terminals, shortening the feedback loop.
-Similarly, getting the program to run evolves from sending it by courier to just hitting the execute key.
+Similarly, getting the program to run evolves from sending it by courier to just hitting the “enter” key.
 
 What's interesting, however, is that when the technology is sufficiently evolved, *new opportunities arise* that could not be imagined before.
 In this case, since the feedback loop is so short with live programming, we can *experiment* in ways that were not possible before.
@@ -159,7 +158,7 @@ They noticed that the same design ideas appeared in all the systems they had dev
 <p class=small><i>[Source: <a href="https://avelonpang.medium.com/gang-of-four-design-patterns-intro-e884af24b85f">Medium</a>]</i></p>
 
 Object-oriented programming was so successful that, by the mid 1990s, there were already many, very large OO systems.
-Despite the increased ease of evolution, many of these older OO systems started to show the typical symptoms of legacy systems predicted by Lehman and Belady's [laws of software evolution](https://en.wikipedia.org/wiki/Lehman%27s_laws_of_software_evolution) ...
+Despite the increased ease of evolution, many of these older OO systems started to show the typical symptoms of legacy systems predicted by Lehman and Belady's [laws of software evolution](https://en.wikipedia.org/wiki/Lehman%27s_laws_of_software_evolution).
 
 We started a European project called [FAMOOS](https://scg.unibe.ch/archive/famoos/) in 1996 with industrial partners Nokia and Daimler-Benz to reengineer legacy OO software towards cleaner, more scalable component-based frameworks.
 
@@ -198,7 +197,7 @@ Before automation, manual testing of software systems could be as painful as rew
 <p class=small><i>[Source: <a href="https://education.blogs.archives.gov/2015/10/08/upcoming-events-for-educators-at-the-national-archives-at-new-york-city/1260_original/">National Archives</a>]</i></p>
 
 
-Automated testing only started to become popular with the introduction of Kent Beck's [SUnit](https://en.wikipedia.org/wiki/SUnit) framework, and the subsequent [port of SUnit](https://en.wikipedia.org/wiki/Unit_testing#History) by Kent and Erich Gamma to Java.
+Automated testing only started to become popular with the introduction of Kent Beck's [SUnit](https://en.wikipedia.org/wiki/SUnit) framework for Smalltalk, and the subsequent [port of SUnit](https://en.wikipedia.org/wiki/Unit_testing#History) by Kent and Erich Gamma to Java.
 
 During the FAMOOS project we were concerned about a particular project we were analyzing, and for which we could find no test cases.
 When we asked, we were told, *“Oh, but we have very extensive test cases!”* *“Great!”* we said, *“Can we see them?”* They then brought us a big book of test cases that some poor person had to manually step through every time the tests were run.
@@ -249,7 +248,7 @@ Let's take a look for some of the reasons.
 All mainstream IDEs are pretty much the same: *they focus on editing source code*.
 
 Why is this a problem?
-First of all, putting a text editor at the center presupposes that you are generally either reading or writing code.
+First of all, putting a text editor at the center of the IDE presupposes that you are generally either reading or writing code.
 But in fact [we only spend a small part of our time writing code](https://drpicox.medium.com/developers-spend-less-than-10-of-time-coding-51c36c73a93b#:~:text=It%20turns%20out%20that%20the,was%20far%20below%20the%204%25.).
 
 ***Reading code does not scale***
@@ -265,10 +264,10 @@ Lightweight tools and metrics can help you to gain insight into a complex system
 [![System complexity view](/assets/images/bat50/systemComplexity.jpg)](/assets/images/bat50/systemComplexity.jpg)
 
 In this system complexity view, we map the numbers of attributes, methods and lines of codes to the width, height and color of classes in a hierarchy.
-This immediately highlights classes with abnormally high lines of code, or lots of data with little behavior.
+This immediately highlights classes with abnormally many lines of code, or lots of data with little behavior.
 
 While such tools are useful early when investigating a system, they are still generic.
-To support solving concrete problems tools have to take the context of those problems into account.
+To support solving concrete problems, tools have to take the context of those problems into account.
 The key question is whether such tools can be cheaply produced to answer specific questions about a given software system.
 
 ***Code is disconnected from the running application***
@@ -308,13 +307,13 @@ Finally, plugins don't know anything about your context, so like Stack Overflow 
 The key issue is that software is so *contextual* that it is not possible to predict the specific questions that will arise in developing and evolving it.
 (We'll see some examples shortly.)
 As a consequence, generic tools and plugins will always fail to be useful at some point.
-Instead, we need to be able to cheaply and quickly build or adapt tools to answers our specific, contextual questions.
+Instead, we need to be able to cheaply and quickly build or adapt tools to answer our specific, contextual questions.
 
 ---
 # Moldable development
 
-For a software system to be explainable, it must be *explorable*.
 The IDE is more than a text editor.
+For a software system to be explainable, it must be *explorable*.
 
 - First, instead of starting to explore a system from source code, we can *start from a live object* and navigate from there.
 - Second, we must be able to answer questions relevant to our *context*. Instead of using off-the-shelf tools or plugins, we should be able to *cheaply build composable tools* specific to our domain.
@@ -333,7 +332,7 @@ We can explore the changes, the commits, the packages, and from each entity navi
 
 [![Exploring a GitHub repo](/assets/images/bat50/exploringAGitRepo.png)](/assets/images/bat50/exploringAGitRepo.png)
 
-It doesn't matter whether the domain is that of slideshows, git repositories, computer games, social media data or life insurance policies.
+It doesn't matter whether the domain is that of slideshows, git repositories, computer games, social media data, or life insurance policies.
 In any of these cases, we can navigate through the network of domain objects to answer our questions, or to navigate from the objects to the code, rather than the other way around.
 
 To make systems explainable, you need to be able to add cheap, composable tools, such as views.
@@ -342,16 +341,16 @@ This implies that you need to be able to easily and cheaply define your own plug
 
 For each of the custom navigational views we have seen, a few lines of code are all that are needed to define them.
 We can ALT-click on the tabs to see the code.
-For example, the Slide deck view is extremely short, and leverages the fact that all the parts are composable.
+For example, the *Slide deck* view is extremely short, and leverages the fact that all the parts are composable.
 
 [![Inspecting the code behind a view](/assets/images/bat50/inspectingTheCodeBehindAView.png)](/assets/images/bat50/inspectingTheCodeBehindAView.png)
 
 All the views we have seen are examples of custom tools added to a moldable IDE.
-In addition to custom views, there are several other ways the IDE can be molded such as by adding custom actions, search capabilities, and quality advices.
+In addition to custom views, there are several other ways the IDE can be molded, such as by adding custom actions, search capabilities, and quality advices.
 
 [![Custom views can be cheap toimplement](/assets/images/bat50/customViewsAreCheap.png)](/assets/images/bat50/customViewsAreCheap.png)
 
-The Metrics view of each extension shows that they are generally small and cheap to implement.
+The *Metrics* view of each extension shows that they are generally small and cheap to implement.
 For example, there are nearly 3000 inspector views in the standard GT image, and they average under 12 LOC.
 
 ## Example: exploring Lifeware test runs
@@ -369,7 +368,7 @@ In this lightweight visualization we see that a number of workers, i.e., the lon
 
 [![Exploring Lifeware test runs](/assets/images/bat50/lifeware/1-cluster-view.png)](/assets/images/bat50/lifeware/1-cluster-view.png)
 
-Here we highlight in red tasks that took longer for the same worker than an earlier task.
+Here we highlight in red those tasks that took longer for the same worker than an earlier task.
 This tells us that there are scheduling issues, and not just with the slowest workers.
 
 [![Highlighting slower tasks](/assets/images/bat50/lifeware/2-clusters-slow-tasks-highlighted.png)](/assets/images/bat50/lifeware/2-clusters-slow-tasks-highlighted.png)
@@ -382,7 +381,7 @@ Is there something special about these machines?
 [![rouping workers by machine](/assets/images/bat50/lifeware/3-clusters-by-machine.png)](/assets/images/bat50/lifeware/3-clusters-by-machine.png)
 
 We dive into a particular machine to see what's going on.
-We can see clearly that only one worker (second from the bottom at the right) is having scheduling issues, so it's clearly nor an issue of the specific machine.
+We can see clearly that only one worker (second from the bottom at the right) is having scheduling issues, so it's clearly not an issue of the specific machine.
 
 [![Diving into a machine](/assets/images/bat50/lifeware/4-machine-view.png)](/assets/images/bat50/lifeware/4-machine-view.png)
 
@@ -409,7 +408,7 @@ I have only shown you some custom inspector views, but the idea applies just as 
 
 At the next level we see how moldable tools are leveraged by moving from manual inspection to custom queries that we plug into the tools.
 We saw this when we browsed the slides of a slideshow or the recent changes of a git repo.
-Now, instead of manual cobbling together a view, we can easily obtain a view using the molded tools.
+Now, instead of manually cobbling together a view, we can easily obtain a view using the molded tools.
 
 We can have “inside-out conversations” that emerge from exploring the system itself, instead of classical “outside-in” conversations that treat the software as a black box with inputs and outputs.
 This then allows us to spot risks and opportunities that are observable only inside a system, and to support quick decision making not only for developers, but also business stakeholders.
