@@ -264,7 +264,7 @@ Lightweight tools and metrics can help you to gain insight into a complex system
 [![System complexity view](/assets/images/bat50/systemComplexity.jpg)](/assets/images/bat50/systemComplexity.jpg)
 
 In this system complexity view, we map the numbers of attributes, methods and lines of codes to the width, height and color of classes in a hierarchy.
-This immediately highlights classes with abnormally high lines of code, or lots of data with little behavior.
+This immediately highlights classes with abnormally many lines of code, or lots of data with little behavior.
 
 While such tools are useful early when investigating a system, they are still generic.
 To support solving concrete problems tools have to take the context of those problems into account.
