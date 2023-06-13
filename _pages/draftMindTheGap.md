@@ -248,7 +248,7 @@ Let's take a look for some of the reasons.
 All mainstream IDEs are pretty much the same: *they focus on editing source code*.
 
 Why is this a problem?
-First of all, putting a text editor at the center presupposes that you are generally either reading or writing code.
+First of all, putting a text editor at the center of the IDE presupposes that you are generally either reading or writing code.
 But in fact [we only spend a small part of our time writing code](https://drpicox.medium.com/developers-spend-less-than-10-of-time-coding-51c36c73a93b#:~:text=It%20turns%20out%20that%20the,was%20far%20below%20the%204%25.).
 
 ***Reading code does not scale***
