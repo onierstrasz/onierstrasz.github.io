@@ -1,7 +1,7 @@
 ---
 title: "Mind the gap — 50 years of shortening feedback loops"
 date: 2023-06-12
-permalink: /draftMindTheGap
+permalink: /posts/2023-06-12-MindTheGap
 tags:
   - BATbern
   - Moldable Development

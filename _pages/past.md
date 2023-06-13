@@ -6,8 +6,6 @@ author_profile: true
 
 ## Upcoming events
 
-- *Guest lecturer* at University of Bern, May 12, 2023 — [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
-
 - *PC Member* of [SLE 2023](https://www.sleconf.org/2023/) (ACM SIGPLAN International Conference on Software Language Engineering &mdash; Cascais, Portugal, co-located with [SPLASH 2023](https://2023.splashcon.org) Oct. 22-27, 2023)
 
 ## Past events (1998-present)
@@ -17,6 +15,8 @@ See also: [Dagstuhls I have attended](/dagstuhl).
 ## 2023
 
 - *Invited Speaker* at [BATbern50](https://www.berner-architekten-treffen.ch) (Jubiläums-BAT 50, Paul-Klee Center, Bern, 14h30-19h00, Jun. 9, 2023) — [Mind the gap — 50 years of shortening feedback loops](/talks/2023-06-09-MindTheGap-BATbern50)
+
+- *Guest lecturer* at University of Bern, May 12, 2023 — [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
 
 - *Guest lecturer* at University of Bern, April 6, 2023 — [PEGs, Packrats and Parser Combinators](/teaching/2023-04-06-PEGs)
 
