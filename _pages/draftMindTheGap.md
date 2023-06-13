@@ -346,11 +346,11 @@ For example, the *Slide deck* view is extremely short, and leverages the fact th
 [![Inspecting the code behind a view](/assets/images/bat50/inspectingTheCodeBehindAView.png)](/assets/images/bat50/inspectingTheCodeBehindAView.png)
 
 All the views we have seen are examples of custom tools added to a moldable IDE.
-In addition to custom views, there are several other ways the IDE can be molded such as by adding custom actions, search capabilities, and quality advices.
+In addition to custom views, there are several other ways the IDE can be molded, such as by adding custom actions, search capabilities, and quality advices.
 
 [![Custom views can be cheap toimplement](/assets/images/bat50/customViewsAreCheap.png)](/assets/images/bat50/customViewsAreCheap.png)
 
-The Metrics view of each extension shows that they are generally small and cheap to implement.
+The *Metrics* view of each extension shows that they are generally small and cheap to implement.
 For example, there are nearly 3000 inspector views in the standard GT image, and they average under 12 LOC.
 
 ## Example: exploring Lifeware test runs
@@ -368,7 +368,7 @@ In this lightweight visualization we see that a number of workers, i.e., the lon
 
 [![Exploring Lifeware test runs](/assets/images/bat50/lifeware/1-cluster-view.png)](/assets/images/bat50/lifeware/1-cluster-view.png)
 
-Here we highlight in red tasks that took longer for the same worker than an earlier task.
+Here we highlight in red those tasks that took longer for the same worker than an earlier task.
 This tells us that there are scheduling issues, and not just with the slowest workers.
 
 [![Highlighting slower tasks](/assets/images/bat50/lifeware/2-clusters-slow-tasks-highlighted.png)](/assets/images/bat50/lifeware/2-clusters-slow-tasks-highlighted.png)
@@ -381,7 +381,7 @@ Is there something special about these machines?
 [![rouping workers by machine](/assets/images/bat50/lifeware/3-clusters-by-machine.png)](/assets/images/bat50/lifeware/3-clusters-by-machine.png)
 
 We dive into a particular machine to see what's going on.
-We can see clearly that only one worker (second from the bottom at the right) is having scheduling issues, so it's clearly nor an issue of the specific machine.
+We can see clearly that only one worker (second from the bottom at the right) is having scheduling issues, so it's clearly not an issue of the specific machine.
 
 [![Diving into a machine](/assets/images/bat50/lifeware/4-machine-view.png)](/assets/images/bat50/lifeware/4-machine-view.png)
 
@@ -408,7 +408,7 @@ I have only shown you some custom inspector views, but the idea applies just as 
 
 At the next level we see how moldable tools are leveraged by moving from manual inspection to custom queries that we plug into the tools.
 We saw this when we browsed the slides of a slideshow or the recent changes of a git repo.
-Now, instead of manual cobbling together a view, we can easily obtain a view using the molded tools.
+Now, instead of manually cobbling together a view, we can easily obtain a view using the molded tools.
 
 We can have “inside-out conversations” that emerge from exploring the system itself, instead of classical “outside-in” conversations that treat the software as a black box with inputs and outputs.
 This then allows us to spot risks and opportunities that are observable only inside a system, and to support quick decision making not only for developers, but also business stakeholders.
