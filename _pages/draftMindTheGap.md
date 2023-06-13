@@ -307,7 +307,7 @@ Finally, plugins don't know anything about your context, so like Stack Overflow 
 The key issue is that software is so *contextual* that it is not possible to predict the specific questions that will arise in developing and evolving it.
 (We'll see some examples shortly.)
 As a consequence, generic tools and plugins will always fail to be useful at some point.
-Instead, we need to be able to cheaply and quickly build or adapt tools to answers our specific, contextual questions.
+Instead, we need to be able to cheaply and quickly build or adapt tools to answer our specific, contextual questions.
 
 ---
 # Moldable development
