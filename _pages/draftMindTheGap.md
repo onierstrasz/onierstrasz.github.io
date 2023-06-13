@@ -248,12 +248,14 @@ You simply cannot read hundreds of thousands of lines of code, let alone many mi
 ***Lightweight tools are more effective than reading code***
 
 One of the key reengineering patterns is *[Study the Exceptional Entities](https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Book%3A_Object-Oriented_Reengineering_Patterns_(Demeyer_Ducasse_and_Nierstrasz)/04%3A_Initial_Understanding/4.04%3A_Study_the_Exceptional_Entities)*, which helps you to learn quickly about potential problems in a software system by asking questions about outliers, such as very large classes, or classes with many fields but little behavior.
-Very lightweight tools and metrics can be enough to gain insight into a complex system.
+Lightweight tools and metrics can help you to gain insight into a complex system.
 
 [![System complexity view](/assets/images/bat50/systemComplexity.jpg)](/assets/images/bat50/systemComplexity.jpg)
 
 In this system complexity view, we map the numbers of attributes, methods and lines of codes to the width, height and color of classes in a hierarchy.
 This immediately highlights classes with abnormally high lines of code, or lots of data with little behavior.
+
+The key question is whether such tools can be cheaply produced to answer other kinds of specific questions about a given software systems.
 
 ***Code is disconnected from the running application***
 
