@@ -292,6 +292,7 @@ Unluckily plugins are (in my experience) not pleasant to implement, it is hard t
 Finally, plugins don't know anything about your context, so like SO and ChatGPT, the likelihood that they will help you for *your* problem is slim.
 
 The key issue is that software is so *contextual* that it is not possible to predict the specific questions that will arise in developing and evolving it.
+(We'll see some examples shortly.)
 As a consequence, generic tools and plugins will always fail to be useful at some point.
 Instead, we need to be able to cheaply and quickly build or adapt tools to answers our specific, contextual questions.
 
@@ -395,7 +396,8 @@ I have only shown you some custom inspector views, but the idea applies just as 
 At the next level we see how moldable tools are leveraged by moving from manual inspection to custom queries that we plug into the tools.
 We saw this when we browsed the slides of a slideshow or the recent changes of a git repo.
 Now, instead of manual cobbling together a view, we can easily obtain a view using the molded tools.
-In the end we can more quickly support decision-making not only for developers, but also business stakeholders.
+We can have “inside-out conversations” that emerge from exploring the system itself, instead of classical “outside-in” conversations that treat the software as a passive entity.
+In the end we can more quickly support decision-making not only for developers, but also business stakeholders through such inside-out converstions.
 
 ---
 # Conclusion
