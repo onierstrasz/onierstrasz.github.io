@@ -68,7 +68,7 @@ At the top we see the need for getting our programs running.
 The other nodes are components that contribute to that need.
 From *bottom to top* components provide *more value* to the user, and from *left to right* they *evolve* from *genesis*, through *prototypes*, to *products*, and all the way to *commodities*.
 
-The grey lines show which components contributes to others higher up.
+The grey lines show which components contribute to others higher up.
 So, optical mark cards are sent by courier and contribute to getting the code running.
 The red arrows indicate evolution of components towards products and commodities.
 Greyed-out components are those from the past.
