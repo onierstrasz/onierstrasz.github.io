@@ -197,7 +197,7 @@ Before automation, manual testing of software systems could be as painful as rew
 <p class=small><i>[Source: <a href="https://education.blogs.archives.gov/2015/10/08/upcoming-events-for-educators-at-the-national-archives-at-new-york-city/1260_original/">National Archives</a>]</i></p>
 
 
-Automated testing only started to become popular with the introduction of Kent Beck's [SUnit](https://en.wikipedia.org/wiki/SUnit) framework, and the subsequent [port of SUnit](https://en.wikipedia.org/wiki/Unit_testing#History) by Kent and Erich Gamma to Java.
+Automated testing only started to become popular with the introduction of Kent Beck's [SUnit](https://en.wikipedia.org/wiki/SUnit) framework for Smalltalk, and the subsequent [port of SUnit](https://en.wikipedia.org/wiki/Unit_testing#History) by Kent and Erich Gamma to Java.
 
 During the FAMOOS project we were concerned about a particular project we were analyzing, and for which we could find no test cases.
 When we asked, we were told, *“Oh, but we have very extensive test cases!”* *“Great!”* we said, *“Can we see them?”* They then brought us a big book of test cases that some poor person had to manually step through every time the tests were run.
