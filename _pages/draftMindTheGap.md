@@ -176,7 +176,7 @@ Instead of dealing with many unconnected applications, we deal with a Software P
 [![Wardley map: closing the productivity gap](/assets/images/bat50/map3productivity.png)](/assets/images/bat50/map3productivity.png)
 
 ---
-# The testing Gap
+# The testing gap
 
 Once upon a time (and also today), testing was a manual process.
 
@@ -207,7 +207,7 @@ For example, [property-based testing](https://medium.com/criteo-engineering/intr
 When generated tests are ready to replace manually-written tests, there will certainly be new opportunities that can be hard to imagine now.
 
 ---
-# The deployment Gap
+# The deployment gap
 
 Although there were many other exciting advances in the 1990s, let us skip ahead.
 
@@ -273,11 +273,11 @@ The problem with the answers we find on these sites is that they *lack our speci
 
 Although Stack Overflow clearly suffers from this problem, statistically-generated answers such as those provided by ChatGPT are no better, and in some ways worse, because of the high level of confidence (or hubris?) displayed by the answers.
 
-|[![Asking StackOverflow a question](/assets/images/bat50/SO.png)](/assets/images/bat50/SO.png)|[![Asking ChatGPT a question](/assets/images/bat50/chatGPT.png)](/assets/images/bat50/chatGPT.png)|
+|[![Asking Stack Overflow a question](/assets/images/bat50/SO.png)](/assets/images/bat50/SO.png)|[![Asking ChatGPT a question](/assets/images/bat50/chatGPT.png)](/assets/images/bat50/chatGPT.png)|
 | --- | --- |
-| A typical StackOverflow answer | A typical ChatGPT answer |
+| A typical Stack Overflow answer | A typical ChatGPT answer |
 
-These screenshots show answers I obtained from SO and ChatGPT to actual questions I had about GitHub pages.
+These screenshots show answers I obtained from Stack Overflow and ChatGPT to actual questions I had about GitHub pages.
 In both cases I struggled to get the information relevant for my context.
 Worse, the answer from ChatGPT looked authoritative, but in fact was fanciful and inaccurate.
 
@@ -289,7 +289,7 @@ Instead of leaving the IDE to find answers to questions we have about our softwa
 Luckily there exist *plugins*.
 
 Unluckily plugins are (in my experience) not pleasant to implement, it is hard to find any that are truly helpful, and they pretty much never play nicely with other plugins.
-Finally, plugins don't know anything about your context, so like SO and ChatGPT, the likelihood that they will help you for *your* problem is slim.
+Finally, plugins don't know anything about your context, so like Stack Overflow and ChatGPT, the likelihood that they will help you for *your* problem is slim.
 
 The key issue is that software is so *contextual* that it is not possible to predict the specific questions that will arise in developing and evolving it.
 (We'll see some examples shortly.)
@@ -305,8 +305,8 @@ The IDE is more than a text editor.
 - First, instead of starting to explore a system from source code, we can *start from a live object* and navigate from there.
 - Second, we must be able to answer questions relevant to our *context*. Instead of using off-the-shelf tools or plugins, we should be able to *cheaply build composable tools* specific to our domain.
 
-For example, to understand the slideshow implementation of this presentation, we don't start from the source code but from a live instance.
-We can navigate from the slideshow to its slides, to the Wardley maps, or to the source code, if we need to.
+For example, to understand the slideshow implementation of the talk this blog post is based on, we don't start from the source code but from a live instance.
+We can navigate from the slideshow to its slides, to the Wardley maps, or even to the source code, if we need to.
 
 [![Exploring the slideshow](/assets/images/bat50/exploringTheSlideshow.png)](/assets/images/bat50/exploringTheSlideshow.png)
 
@@ -429,7 +429,7 @@ It can and should be seen as a *living system* can expresses knowledge about its
 I would like to propose a new mantra, namely: *“The software wants to talk to you.”*
 
 This means that instead of letting the IDE lock up software inside the prison of a text editor, it should enable the exploration, querying and analysis of live systems.
-Then, instead of having to head to Google, StackOverflow or ChatGPT to answer questions about our software, we should be able to answer the questions we have with the help of the systems themselves.
+Then, instead of having to head to Google, Stack Overflow or ChatGPT to answer questions about our software, we should be able to answer the questions we have with the help of the systems themselves.
 
 ---
 # Exploring the live slideshow
