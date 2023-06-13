@@ -66,6 +66,12 @@ At the top we see the need for getting our programs running.
 The other nodes are components that contribute to that need.
 From *bottom to top* components provide *more value* to the user, and from *left to right* they *evolve* from *genesis*, through *prototypes*, to *products*, and all the way to *commodities*.
 
+The grey lines show which components contributes to others higher up.
+So, optical mark cards are sent by courier and contribute to getting the code running.
+The red arrows indicate evolution of components towards products and commodities.
+Greyed-out components are those from the past.
+The dark red arrows point to new components that emerge from the evolution.
+
 In this case we see that the source code medium evolves from optical mark cards via punch cards to interactive terminals, shortening the feedback loop.
 Similarly, getting the program to run evolves from sending it by courier to just hitting the execute key.
 
@@ -197,7 +203,7 @@ In any case, you only had to write an automated test once, whereas a manual test
 
 The open question is where we can go with generated tests.
 So far these mostly just identify cases where the system fails, but there are some exceptions.
-For example, [property-based testing](Property Based Testing) can test business logic.
+For example, [property-based testing](https://medium.com/criteo-engineering/introduction-to-property-based-testing-f5236229d237) can test business logic.
 When generated tests are ready to replace manually-written tests, there will certainly be new opportunities that can be hard to imagine now.
 
 ---
