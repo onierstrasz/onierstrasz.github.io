@@ -3,16 +3,17 @@ title: "Mind the gap — 50 years of shortening feedback loops"
 date: 2023-06-12
 permalink: /draftMindTheGap
 tags:
-  - batbern
+  - BATbern
+  - Moldable Development
 ---
-
-*This blog post is based on an [invited talk](/talks/2023-06-09-MindTheGap-BATbern50) held at the [50th anniversary Berner Architekten Treffen (BAT)](https://www.berner-architekten-treffen.ch/event/50) (Paul-Klee Center, Bern, June 9, 2023).*
 
 *Caveat: This is a DRAFT — the final version will be posted at a different URL.*
 
+*This blog post is based on an [invited talk](/talks/2023-06-09-MindTheGap-BATbern50) held at the [50th anniversary Berner Architekten Treffen (BATbern)](https://www.berner-architekten-treffen.ch/event/50) (Paul-Klee Center, Bern, June 9, 2023).*
+
 ---
 
-On the occasion of the 50th BAT event, it occurred to me that it has been roughly 50 years since I started programming.
+On the occasion of the 50th BATbern event, it occurred to me that it has been roughly 50 years since I started programming.
 In that time I've seen quite a few advances in Software Engineering.
 I'd like to take this opportunity to reflect on how these advances have not only shortened feedback loops in software development processes, but also how they have enabled new possibilities for innovation.
 
@@ -30,6 +31,8 @@ APL is facetiously known as a “write-only” language, due to its highly compa
 Here we a see a one-line APL program to generate prime numbers.
 
 [![An APL prime sieve](/assets/images/bat50/aplPrimeSieve.jpg)](/assets/images/bat50/aplPrimeSieve.jpg)
+
+<p class=small><i>[Sources: <a href="https://old.aplwiki.com/SieveOfEratosthenes">APL wiki</a>, <a href="https://commons.wikimedia.org/wiki/File:APL-keybd2.svg">Wikimedia commons</a>]</i></p>
 
 I remember writing a similar one-line APL prime sieve that looked something like this one.
 
@@ -99,12 +102,14 @@ This was exactly what I was looking for!
 
 |[![Byte August 1981](/assets/images/bat50/Byte-August1981.jpg)](/assets/images/bat50/Byte-August1981.jpg)|[![Introducing Smalltalk](/assets/images/bat50/Byte-IntroducingSmalltalk80.jpg)](/assets/images/bat50/Byte-IntroducingSmalltalk80.jpg)|
 | --- |--- |
-| August 1981 Byte special issue on Smalltalk | Introducing the Smalltalk-80 System |
+| [August 1981 Byte special issue on Smalltalk](https://archive.org/details/byte-magazine-1981-08) | [Introducing the Smalltalk-80 System](https://www.tech-insider.org/star/research/acrobat/8108.pdf) |
 
 Object-oriented programming was born in Norway in 1962, where [Ole-Johan Dahl](https://en.wikipedia.org/wiki/Ole-Johan_Dahl) and [Kristen Nygaard](https://en.wikipedia.org/wiki/Kristen_Nygaard) struggled to implement simulation software using [ALGOL](https://en.wikipedia.org/wiki/ALGOL), an early procedural language.
 
 [![Ole-Johan Dahl
 and Kristen Nygaard](/assets/images/bat50/simulaDahlNygaard.jpg)](/assets/images/bat50/simulaDahlNygaard.jpg)
+
+<p class=small><i>[Source: <a href="https://www.jot.fm/issues/issue_2002_09/eulogy/">Journal of Object Technology</a>]</i></p>
 
 They invented objects, classes and inheritance to model real-world simulations as a thin layer on top of ALGOL.
 The resulting language was called [Simula](https://en.wikipedia.org/wiki/Simula), which was standardized in 1967.
@@ -139,6 +144,8 @@ This great photo shows Margaret Hamilton, NASA's lead software engineer for the 
 
 [![Margaret Hamilton with Apollo code](/assets/images/bat50/margaretHamiltonApolloCode.jpg)](/assets/images/bat50/margaretHamiltonApolloCode.jpg)
 
+<p class=small><i>[Source: <a href="https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)#MIT_Instrumentation_Laboratory_and_the_Apollo_Guidance_Computer">Wikipedia commons</a>]</i></p>
+
 But software productivity clearly isn't just producing more code in the same amount of time, otherwise refactoring would be seen as negative productivity! The trick is to produce more *value* for the customer, whether this is more code or less.
 
 In the 1990s, the mantra was “Objects are not enough”.
@@ -148,6 +155,8 @@ All four were also experienced in developing object-oriented frameworks based on
 They noticed that the same design ideas appeared in all the systems they had developed independently, and figured something interesting was going on.
 
 [![The Design Patterns “Gang of Four”](/assets/images/bat50/gangOfFour.jpg)](/assets/images/bat50/gangOfFour.jpg)
+
+<p class=small><i>[Source: <a href="https://avelonpang.medium.com/gang-of-four-design-patterns-intro-e884af24b85f">Medium</a>]</i></p>
 
 Object-oriented programming was so successful that, by the mid 1990s, there were already many, very large OO systems.
 Despite the increased ease of evolution, many of these older OO systems started to show the typical symptoms of legacy systems predicted by Lehman and Belady's [laws of software evolution](https://en.wikipedia.org/wiki/Lehman%27s_laws_of_software_evolution) ...
@@ -185,6 +194,9 @@ As you can imagine, testing was a slow, laborious process of rewiring.
 Before automation, manual testing of software systems could be as painful as rewiring the ENIAC.
 
 [![ENIAC](/assets/images/bat50/eniac.jpg)](/assets/images/bat50/eniac.jpg)
+
+<p class=small><i>[Source: <a href="https://education.blogs.archives.gov/2015/10/08/upcoming-events-for-educators-at-the-national-archives-at-new-york-city/1260_original/">National Archives</a>]</i></p>
+
 
 Automated testing only started to become popular with the introduction of Kent Beck's [SUnit](https://en.wikipedia.org/wiki/SUnit) framework, and the subsequent [port of SUnit](https://en.wikipedia.org/wiki/Unit_testing#History) by Kent and Erich Gamma to Java.
 
@@ -307,7 +319,7 @@ The IDE is more than a text editor.
 - First, instead of starting to explore a system from source code, we can *start from a live object* and navigate from there.
 - Second, we must be able to answer questions relevant to our *context*. Instead of using off-the-shelf tools or plugins, we should be able to *cheaply build composable tools* specific to our domain.
 
-For example, to understand the slideshow implementation of the talk this blog post is based on, we don't start from the source code but from a live instance.
+For example, to understand the [slideshow implementation](https://github.com/onierstrasz/gt-talks) of the talk this blog post is based on, we don't start from the source code but from a live instance.
 We can navigate from the slideshow to its slides, to the Wardley maps, or even to the source code, if we need to.
 
 [![Exploring the slideshow](/assets/images/bat50/exploringTheSlideshow.png)](/assets/images/bat50/exploringTheSlideshow.png)
@@ -436,42 +448,3 @@ Then, instead of having to head to Google, Stack Overflow or ChatGPT to answer q
 
 <p style="text-align: center;">&#xFE4C;&#xFE4C;&#xFE4C;&#xFE4C;&#xFE4C;</p>
 
----
-# Exploring the live slideshow
-
-The slideshow of the presentation is [available on GitHub](https://github.com/onierstrasz/gt-talks).
-To explore it you should first [download Glamorous toolkit](https://gtoolkit.com/download/).
-
-Then within GT, open a Playground and *evaluate* these snippets:
-```
-Metacello new
-	baseline: 'GtTalks';
-	repository: 'github://onierstrasz/gt-talks:main/src';
-	load
-```
-
-```
-BaselineOfGtTalks loadLepiter
-```
-
-Finally *inspect*:
-```
-BATbern50Slideshow new
-```
-
-|[![Load the gt-talks repo](/assets/images/bat50/loadGtTalks.png)](/assets/images/bat50/loadGtTalks.png)|[![Inspect the BATbern50slideshow](/assets/images/bat50/inspectBatBern50.png)](/assets/images/bat50/inspectBatBern50.png)|
-| --- | --- |
-| Load the gt-talks repo | Inspect the BATbern50slideshow |
-
----
-# External photo sources
-
-- APL prime sieve -- [APL wiki](https://old.aplwiki.com/SieveOfEratosthenes)
-- APL keyboard -- [Wikimedia commons](https://commons.wikimedia.org/wiki/File:APL-keybd2.svg)
-- August 1981 Byte special issue on Smalltalk -- [The Internet Archive](https://archive.org/details/byte-magazine-1981-08)
-- Dahl/Nygaard photo -- [Journal of Object Technology](https://www.jot.fm/issues/issue_2002_09/eulogy/)
-- Margaret Hamilton photo -- [Wikipedia commons](https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)#MIT_Instrumentation_Laboratory_and_the_Apollo_Guidance_Computer)
-- Gang of Four photo -- original source not identified
-- ENIAC -- [National Archives](https://education.blogs.archives.gov/2015/10/08/upcoming-events-for-educators-at-the-national-archives-at-new-york-city/1260_original/)
-
----
