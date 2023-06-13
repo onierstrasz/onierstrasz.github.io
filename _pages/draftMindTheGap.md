@@ -9,7 +9,7 @@ tags:
 
 *Caveat: This is a DRAFT — the final version will be posted at a different URL.*
 
-*This blog post is based on an [invited talk](/talks/2023-06-09-MindTheGap-BATbern50) held at the [50th anniversary Berner Architekten Treffen (BATbern)](https://www.berner-architekten-treffen.ch/event/50) (Paul-Klee Center, Bern, June 9, 2023).*
+*This blog post is based on an [invited talk](/talks/2023-06-09-MindTheGap-BATbern50) held at the [50th anniversary Berner Architekten Treffen](https://www.berner-architekten-treffen.ch/event/50) on June 9, 2023.*
 
 ---
 
