@@ -14,7 +14,7 @@ He is co-author of over 400 [publications](/publications), including the open-so
 
 # News
 
-[Mind the gap — 50 years of shortening feedback loops](/posts/2023-06-12-MindTheGap) -- blog post based on an [invited talk at the 50th BATbern event](https://www.berner-architekten-treffen.ch).
+[Mind the gap — 50 years of shortening feedback loops](/posts/2023-06-12-MindTheGap) -- blog post based on an invited talk at the [50th BATbern event](https://www.berner-architekten-treffen.ch).
 
 # Upcoming events
 
