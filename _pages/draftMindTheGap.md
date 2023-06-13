@@ -7,13 +7,7 @@ tags:
   - Moldable Development
 ---
 
-*Caveat: This is a DRAFT — the final version will be posted at a different URL.*
-
-*This blog post is based on an [invited talk](/talks/2023-06-09-MindTheGap-BATbern50) held at the [50th anniversary Berner Architekten Treffen](https://www.berner-architekten-treffen.ch/event/50) on June 9, 2023.*
-
----
-
-On the occasion of the 50th BATbern event, it occurred to me that it has been roughly 50 years since I started programming.
+On the occasion of the [50th BATbern event](https://www.berner-architekten-treffen.ch/event/50), it occurred to me that it has been roughly 50 years since I started programming.
 In that time I've seen quite a few advances in Software Engineering.
 I'd like to take this opportunity to reflect on how these advances have not only shortened feedback loops in software development processes, but also how they have enabled new possibilities for innovation.
 
@@ -448,3 +442,6 @@ Then, instead of having to head to Google, Stack Overflow or ChatGPT to answer q
 
 <p style="text-align: center;">&#xFE4C;&#xFE4C;&#xFE4C;&#xFE4C;&#xFE4C;</p>
 
+---
+
+*This blog post is based on an [invited talk](/talks/2023-06-09-MindTheGap-BATbern50) I gave at the [50th anniversary Berner Architekten Treffen](https://www.berner-architekten-treffen.ch/event/50) on June 9, 2023.*
