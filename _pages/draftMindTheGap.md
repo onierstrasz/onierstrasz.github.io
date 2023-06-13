@@ -440,9 +440,10 @@ Kristen Nygaard, one of the inventors of Simula, the first OO language, was appa
 I would interpret that today as meaning that *software is more than just source code*.
 It can and should be seen as a *living system* can expresses knowledge about itself.
 
-I would like to propose a new mantra, namely: *“The software wants to talk to you.”*
+I would like to propose a new mantra, namely:
+*“The software wants to talk to you.”*
 
-This means that instead of letting the IDE lock up software inside the prison of a text editor, it should enable the exploration, querying and analysis of live systems.
+This means that instead of letting the IDE lock up software inside the prison of a text editor, it should *enable* the exploration, querying and analysis of live systems.
 Then, instead of having to head to Google, Stack Overflow or ChatGPT to answer questions about our software, we should be able to answer the questions we have with the help of the systems themselves.
 
 <p style="text-align: center;">&#xFE4C;&#xFE4C;&#xFE4C;&#xFE4C;&#xFE4C;</p>
