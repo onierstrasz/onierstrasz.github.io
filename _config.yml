@@ -90,7 +90,7 @@ author:
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=Yi00hUYAAAAJ&hl=en"
   email            : "oscar@nierstrasz.org"
-  researchgate     : "https://www.researchgate.net/profile/Oscar-Nierstrasz"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -102,7 +102,7 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   linkedin         : "onierstrasz"
   orcid            : "https://orcid.org/0000-0002-9975-9791"
