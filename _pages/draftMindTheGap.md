@@ -158,7 +158,7 @@ They noticed that the same design ideas appeared in all the systems they had dev
 <p class=small><i>[Source: <a href="https://avelonpang.medium.com/gang-of-four-design-patterns-intro-e884af24b85f">Medium</a>]</i></p>
 
 Object-oriented programming was so successful that, by the mid 1990s, there were already many, very large OO systems.
-Despite the increased ease of evolution, many of these older OO systems started to show the typical symptoms of legacy systems predicted by Lehman and Belady's [laws of software evolution](https://en.wikipedia.org/wiki/Lehman%27s_laws_of_software_evolution) ...
+Despite the increased ease of evolution, many of these older OO systems started to show the typical symptoms of legacy systems predicted by Lehman and Belady's [laws of software evolution](https://en.wikipedia.org/wiki/Lehman%27s_laws_of_software_evolution).
 
 We started a European project called [FAMOOS](https://scg.unibe.ch/archive/famoos/) in 1996 with industrial partners Nokia and Daimler-Benz to reengineer legacy OO software towards cleaner, more scalable component-based frameworks.
 
