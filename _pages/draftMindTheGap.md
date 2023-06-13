@@ -267,7 +267,7 @@ In this system complexity view, we map the numbers of attributes, methods and li
 This immediately highlights classes with abnormally many lines of code, or lots of data with little behavior.
 
 While such tools are useful early when investigating a system, they are still generic.
-To support solving concrete problems tools have to take the context of those problems into account.
+To support solving concrete problems, tools have to take the context of those problems into account.
 The key question is whether such tools can be cheaply produced to answer specific questions about a given software system.
 
 ***Code is disconnected from the running application***
