@@ -312,8 +312,8 @@ Instead, we need to be able to cheaply and quickly build or adapt tools to answe
 ---
 # Moldable development
 
-For a software system to be explainable, it must be *explorable*.
 The IDE is more than a text editor.
+For a software system to be explainable, it must be *explorable*.
 
 - First, instead of starting to explore a system from source code, we can *start from a live object* and navigate from there.
 - Second, we must be able to answer questions relevant to our *context*. Instead of using off-the-shelf tools or plugins, we should be able to *cheaply build composable tools* specific to our domain.
@@ -332,7 +332,7 @@ We can explore the changes, the commits, the packages, and from each entity navi
 
 [![Exploring a GitHub repo](/assets/images/bat50/exploringAGitRepo.png)](/assets/images/bat50/exploringAGitRepo.png)
 
-It doesn't matter whether the domain is that of slideshows, git repositories, computer games, social media data or life insurance policies.
+It doesn't matter whether the domain is that of slideshows, git repositories, computer games, social media data, or life insurance policies.
 In any of these cases, we can navigate through the network of domain objects to answer our questions, or to navigate from the objects to the code, rather than the other way around.
 
 To make systems explainable, you need to be able to add cheap, composable tools, such as views.
@@ -341,7 +341,7 @@ This implies that you need to be able to easily and cheaply define your own plug
 
 For each of the custom navigational views we have seen, a few lines of code are all that are needed to define them.
 We can ALT-click on the tabs to see the code.
-For example, the Slide deck view is extremely short, and leverages the fact that all the parts are composable.
+For example, the *Slide deck* view is extremely short, and leverages the fact that all the parts are composable.
 
 [![Inspecting the code behind a view](/assets/images/bat50/inspectingTheCodeBehindAView.png)](/assets/images/bat50/inspectingTheCodeBehindAView.png)
 
