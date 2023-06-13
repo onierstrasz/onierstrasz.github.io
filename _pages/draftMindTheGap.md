@@ -60,7 +60,7 @@ After that we did all our homework at UofT.
 
 Here we see a “[Wardley map](https://en.wikipedia.org/wiki/Wardley_map)”, a diagram for business strategy that maps components with respect to user need.
 
-[![Wardley map: closing the execution gap](/assets/images/bat50/executionGapMap.png)](/assets/images/bat50/executionGapMap.png)
+[![Wardley map: closing the execution gap](/assets/images/bat50/map1executionGap.png)](/assets/images/bat50/map1executionGap.png)
 
 At the top we see the need for getting our programs running.
 The other nodes are components that contribute to that need.
@@ -122,7 +122,7 @@ This certainly made it easier to develop software systems, but what is interesti
 Not only development, but maintenance and evolution of such systems was facilitated by making it easier to navigate from requirements to code.
 For early adopters of OO technology in the 1980s, this resulted in large, legacy OO systems by the mid 1990s.
 
-[![Wardley map: closing the modeling gap](/assets/images/bat50/OOmodelingMap.png)](/assets/images/bat50/OOmodelingMap.png)
+[![Wardley map: closing the modeling gap](/assets/images/bat50/map2OOmodeling.png)](/assets/images/bat50/map2OOmodeling.png)
 
 ---
 # The productivity gap
@@ -166,7 +166,7 @@ If I say to you, *“Do we need a Singleton here?”*, you should immediately un
 Frameworks and components also raise the level of conversation.
 Instead of dealing with many unconnected applications, we deal with a Software Product Line of applications sharing a common code base.
 
-[![Wardley map: closing the productivity gap](/assets/images/bat50/productivityMap.png)](/assets/images/bat50/productivityMap.png)
+[![Wardley map: closing the productivity gap](/assets/images/bat50/map3productivity.png)](/assets/images/bat50/map3productivity.png)
 
 ---
 # The testing Gap
@@ -188,7 +188,7 @@ When we asked, we were told, *“Oh, but we have very extensive test cases!”* 
 
 The transition from manual to automated testing not only shortened the feedback loop from coding to validating that predefined test cases would pass, but it enabled something new.
 
-[![Wardley map: closing the testing gap](/assets/images/bat50/testingMap.png)](/assets/images/bat50/testingMap.png)
+[![Wardley map: closing the testing gap](/assets/images/bat50/map4testing.png)](/assets/images/bat50/map4testing.png)
 
 With high test coverage, it was now possible to introduce radical changes to the design of a software system, and to subsequently ensure that everything that worked before was still working.
 The obvious downside was the need to manually write the test cases.
@@ -212,7 +212,7 @@ Until the introduction of [DevOps](https://en.wikipedia.org/wiki/DevOps), this c
 
 Although DevOps clearly served to automate and close the gap between development and deployment, what is interesting is the new opportunities it created.
 
-[![Wardley map: closing the deployment gap](/assets/images/bat50/devOpsMap.png)](/assets/images/bat50/devOpsMap.png)
+[![Wardley map: closing the deployment gap](/assets/images/bat50/map5devOps.png)](/assets/images/bat50/map5devOps.png)
 
 In particular, with DevOps it is possible to experimentally introduce new features for selected groups of users to monitor and assess their impact on business.
 Without DevOps, the very idea is laughable.
@@ -375,7 +375,7 @@ We were able to perform this analysis because we could *turn every question into
 At the bottom here we see a transition from fixed and rigid IDE tools to moldable tools that can be easily and cheaply extended with new behavior.
 I have only shown you some custom inspector views, but the idea applies just as well for search tools, quality advices, and even customizable debuggers.
 
-[![Wardley map: mapping moldable development](/assets/images/bat50/moldableDevelopmentMap.png)](/assets/images/bat50/moldableDevelopmentMap.png)
+[![Wardley map: mapping moldable development](/assets/images/bat50/map6moldableDevelopment.png)](/assets/images/bat50/map6moldableDevelopment.png)
 
 At the next level we see how moldable tools are leveraged by moving from manual inspection to custom queries that we plug into the tools.
 We saw this when we browsed the slides of a slideshow or the recent changes of a git repo.
