@@ -396,6 +396,7 @@ I have only shown you some custom inspector views, but the idea applies just as 
 At the next level we see how moldable tools are leveraged by moving from manual inspection to custom queries that we plug into the tools.
 We saw this when we browsed the slides of a slideshow or the recent changes of a git repo.
 Now, instead of manual cobbling together a view, we can easily obtain a view using the molded tools.
+
 We can have “inside-out conversations” that emerge from exploring the system itself, instead of classical “outside-in” conversations that treat the software as a passive entity.
 In the end we can more quickly support decision-making not only for developers, but also business stakeholders through such inside-out converstions.
 
