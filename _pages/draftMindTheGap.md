@@ -281,6 +281,8 @@ These screenshots show answers I obtained from SO and ChatGPT to actual question
 In both cases I struggled to get the information relevant for my context.
 Worse, the answer from ChatGPT looked authoritative, but in fact was fanciful and inaccurate.
 
+The fact that we nevertheless tend to search for answers *outside* the system shows that there is a crisis that is not being addressed.
+
 ***Plugins are hard to find, hard to build, and hard to compose***
 
 Instead of leaving the IDE to find answers to questions we have about our software base, it would be so much nicer if we could extend the IDE with the tools we need.
@@ -288,6 +290,10 @@ Luckily there exist *plugins*.
 
 Unluckily plugins are (in my experience) not pleasant to implement, it is hard to find any that are truly helpful, and they pretty much never play nicely with other plugins.
 Finally, plugins don't know anything about your context, so like SO and ChatGPT, the likelihood that they will help you for *your* problem is slim.
+
+The key issue is that software is so *contextual* that it is not possible to predict the specific questions that will arise in developing and evolving it.
+As a consequence, generic tools and plugins will always fail to be useful at some point.
+Instead, we need to be able to cheaply and quickly build or adapt tools to answers our specific, contextual questions.
 
 ---
 # Moldable development
@@ -315,7 +321,7 @@ We can explore the changes, the commits, the packages, and from each entity navi
 It doesn't matter whether the domain is that of slideshows, git repositories, computer games, social media data or life insurance policies.
 In any of these cases, we can navigate through the network of domain objects to answer our questions, or to navigate from the objects to the code, rather than the other way around.
 
-To make systems explainable, you need to be able to add cheap, composable tools (views).
+To make systems explainable, you need to be able to add cheap, composable tools, such as views.
 Understanding doesn't arise simply from navigating, but from being able to navigate efficiently and effectively to the answers you need.
 This implies that you need to be able to easily and cheaply define your own plugins to mold the IDE to your needs.
 
