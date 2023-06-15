@@ -11,7 +11,7 @@ You can find citation data on [Google Scholar](http://scholar.google.com/citatio
 [Semantic Scholar](https://www.semanticscholar.org/author/O.-Nierstrasz/144591580).
 Alternative bibtex references are available from [DBLP](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/n/Nierstrasz:Oscar.html).
 
-My [Erdös number]([http://www.oakland.edu/enp/](https://en.wikipedia.org/wiki/Erdős_number)) is 3: [Oscar Nierstrasz &mdash; David M. Jackson &mdash; E. Rodney Canfield &mdash; Paul Erdös](https://scg.unibe.ch/scgbib/?query=onerdos123&filter=Year)
+My [Erdös number](https://en.wikipedia.org/wiki/Erdős_number) is 3: [Oscar Nierstrasz &mdash; David M. Jackson &mdash; E. Rodney Canfield &mdash; Paul Erdös](https://scg.unibe.ch/scgbib/?query=onerdos123&filter=Year)
 
 # Some recent publications
 
