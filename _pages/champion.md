@@ -6,7 +6,7 @@ author_profile: true
 
 ---
 
-*This paper was [originally published](https://scg.unibe.ch/assets/scgbib/?query=Nier00aIdentifyTheChampion&filter=Author) in 2000, in [Pattern Languages of Program Design 4](https://www.amazon.com/Pattern-Languages-Program-Software-Patterns/dp/0201433044) and is also available as [PDF](/files/publications/champion.pdf). The markdown source for this page is available on [GitHub](https://github.com/onierstrasz/onierstrasz.github.io/edit/gh-pages/_pages/champion.md).*
+*This paper was [originally published](https://scg.unibe.ch/assets/scgbib/?query=Nier00aIdentifyTheChampion&filter=Author) in 2000, in [Pattern Languages of Program Design 4](https://www.amazon.com/Pattern-Languages-Program-Software-Patterns/dp/0201433044) and is also available as [PDF](/files/publications/champion.pdf). The markdown source for this page is available on [GitHub](https://github.com/onierstrasz/onierstrasz.github.io/blob/gh-pages/_pages/champion.md).*
 
 {% include toc icon="cog" title=" " %}
 
