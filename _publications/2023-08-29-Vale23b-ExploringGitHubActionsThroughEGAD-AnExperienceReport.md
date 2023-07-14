@@ -6,7 +6,7 @@ excerpt: 'We present our experience developing and using EGAD (Explorable GitHub
 date: 2023-08-29
 venue: 'International Workshop on Smalltalk Technologies (IWST 23)'
 paperurl: 'https://scg.unibe.ch/archive/papers/Vale23b.pdf'
-citation: 'Pablo Valenzuela-Toledo and Alexandre Bergel and Timo Kehrer and Oscar Nierstrasz, Exploring GitHub Actions through EGAD: An Experience Report, IWST'23: Proceedings of International Workshop on Smalltalk Technologies, 2023.'
+citation: 'Pablo Valenzuela-Toledo and Alexandre Bergel and Timo Kehrer and Oscar Nierstrasz, Exploring GitHub Actions through EGAD: An Experience Report, IWST 23: Proceedings of International Workshop on Smalltalk Technologies, 2023.'
 ---
 
 [PDF download](https://scg.unibe.ch/archive/papers/Vale23b.pdf)
