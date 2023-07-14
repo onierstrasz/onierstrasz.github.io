@@ -6,7 +6,7 @@ excerpt: 'We present our preliminary steps in building EGAD (Explorable GitHub A
 date: 2023-05-15
 venue: '14th International Conference on Mining Software Repositories (MSR 2023)'
 paperurl: 'https://scg.unibe.ch/archive/papers/Vale23a.pdf'
-citation: 'Pablo Valenzuela-Toledo and Alexandre Bergel and Timo Kehrer and Oscar Nierstrasz, EGAD: A moldable tool for GitHub Action analysis, Proceedings of the 14th International Conference on Mining Software Repositories (MSR '23), 2023.'
+citation: 'Pablo Valenzuela-Toledo and Alexandre Bergel and Timo Kehrer and Oscar Nierstrasz, EGAD: A moldable tool for GitHub Action analysis, Proceedings of the 14th International Conference on Mining Software Repositories (MSR 23), 2023.'
 ---
 
 [PDF download](https://scg.unibe.ch/archive/papers/Vale23a.pdf)
