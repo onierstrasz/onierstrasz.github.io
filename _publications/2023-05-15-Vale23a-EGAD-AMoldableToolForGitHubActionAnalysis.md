@@ -2,7 +2,7 @@
 title: "EGAD: A moldable tool for GitHub Action analysis"
 collection: publications
 permalink: /publication/2023-05-15-Vale23a-EGAD-AMoldableToolForGitHubActionAnalysis
-excerpt: "We present our preliminary steps in building EGAD (Explorable GitHub Action Domain Model), a moldable domain-specific tool to depict and analyze detailed GA workflow data."
+excerpt: 'We present our preliminary steps in building EGAD (Explorable GitHub Action Domain Model), a moldable domain-specific tool to depict and analyze detailed GA workflow data.'
 date: 2023-05-15
 venue: '14th International Conference on Mining Software Repositories (MSR 2023)'
 paperurl: 'https://scg.unibe.ch/archive/papers/Vale23a.pdf'
