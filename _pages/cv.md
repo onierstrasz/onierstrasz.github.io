@@ -13,8 +13,8 @@ A short CV is available in [PDF](/files/oncv.pdf).
 # Education
 
 - B.Math in Pure Mathematics and Combinatorics and Optimization, University of Waterloo, 1979
-- M.Sc. in Computer Science, University of Toronto, 1981
-* Ph.D in Computer Science, University of Toronto, 1984
+- [M.Sc. in Computer Science](https://scg.unibe.ch/scgbib/?query=Nier81a), University of Toronto, 1981
+- [Ph.D in Computer Science](https://scg.unibe.ch/scgbib/?query=Nier84a), University of Toronto, 1984
 
 # Work experience
 
