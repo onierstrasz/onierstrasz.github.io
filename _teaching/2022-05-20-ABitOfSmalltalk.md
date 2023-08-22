@@ -13,7 +13,7 @@ This guest lecture for the Bachelors course, [Programming 2 (introduction to obj
 The lecture consists of a live demo of the Smalltalk programming language in the [Glamorous Toolkit environment](https://gtoolkit.com).
 The lecture relies on a demo of the Ludo game which was the subject of students group work during the course. During the lecture we see two alternative implementations of the game and how their internal implementation is visualized and documented in the environment.
 
-Since the lecture was a live demo, there is no “slideware” as such, but you can run the demo by [downloading Glamorous Toolkit]([https://gtoolkit.com](https://gtoolkit.com/download/)) and evaluating the following code in a playground:
+Since the lecture was a live demo, there is no “slideware” as such, but you can run the demo by [downloading Glamorous Toolkit](https://gtoolkit.com/download/) and evaluating the following code in a playground:
 
 ```
 SmalltalkIntroSlideshow show
