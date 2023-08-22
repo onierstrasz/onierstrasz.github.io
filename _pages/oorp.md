@@ -15,7 +15,7 @@ sidebar:
 When the original edition published by Morgan Kaufmann in 2003 went out of print, the copyright [reverted to the authors](/files/oorp/oorp-copyright-reversion.jpg). We consequently made this volume available under a [Creative Commons Attribution-ShareAlike 3.0 license](http://creativecommons.org/licenses/by-sa/3.0/).
 
 You can [download the book as a free PDF](/files/oorp/OORP-2013-11-27.pdf),
-or you can order a paperback copy from [Lulu](https://www.lulu.com/shop/oscar-nierstrasz-and-serge-demeyer-and-stéphane-ducasse/object-oriented-reengineering-patterns/ebook/product-17gpzm5e.html?q=&page=1&pageSize=4). 
+or you can order a paperback copy from [Lulu](https://www.lulu.com/shop/oscar-nierstrasz-and-serge-demeyer-and-st%C3%A9phane-ducasse/object-oriented-reengineering-patterns/ebook/product-17gpzm5e.html?q=&page=1&pageSize=4). 
 The original hardcover is also available again from [Amazon](https://www.amazon.com/Object-Oriented-Reengineering-Patterns-Engineering-Programming/dp/1558606394/ref=sr_1_1).
 
 # Contents
