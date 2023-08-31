@@ -14,6 +14,8 @@ See also: [Dagstuhls I have attended](/dagstuhl).
 
 ## 2023
 
+- *Speaker* at [ESUG 2023](https://esug.github.io/2023-Conference/conf2023.html) (European Smaltalk Users Group, Lyon, Aug. 28 - Sep. 1, 2023) — [Teaching Moldable Development](/posts/2023-08-28-TeachingMoldableDevelopment)
+
 - *Invited Speaker* at [BATbern50](https://www.berner-architekten-treffen.ch) (Jubiläums-BAT 50, Paul-Klee Center, Bern, 14h30-19h00, Jun. 9, 2023) — [Mind the gap — 50 years of shortening feedback loops](/talks/2023-06-09-MindTheGap-BATbern50)
 
 - *Guest lecturer* at University of Bern, May 12, 2023 — [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
@@ -24,7 +26,7 @@ See also: [Dagstuhls I have attended](/dagstuhl).
 
 - *Guest lecturer* at University of Bern, May 20, 2022 — [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
 
-- *Keynote Speaker* for [VISSOFT 2022](https://vissoft.info/2022/) (10th IEEE Working Conference on Software Visualization &mdash; Limmasol, Cyprus, Oct.2-3, 2022) — [Making Systems Explainable](/talks/2022-10-03-VISSOFT-MakingSystemsExplainable)
+- *Keynote Speaker* for [VISSOFT 2022](https://vissoft.info/2022/) (10th IEEE Working Conference on Software Visualization &mdash; Limmasol, Cyprus, Oct. 2-3, 2022) — [Making Systems Explainable](/talks/2022-10-03-VISSOFT-MakingSystemsExplainable)
 
 ## 2021
 
