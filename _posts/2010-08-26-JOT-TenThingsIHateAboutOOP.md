@@ -2,9 +2,6 @@
 title: 'Ten Things I Hate About Object-Oriented Programming'
 date: 2010-08-26
 permalink: /posts/2010-08-26-JOT-TenThingsIHateAboutOOP
-tags:
-  - OOP
-  - ECOOP
 ---
 
 Boy, I some days I really hate object-oriented programming.

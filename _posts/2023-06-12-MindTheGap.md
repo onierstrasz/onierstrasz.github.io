@@ -2,9 +2,6 @@
 title: "Mind the gap — 50 years of shortening feedback loops"
 date: 2023-06-12
 permalink: /posts/2023-06-12-MindTheGap
-tags:
-  - BATbern
-  - Moldable Development
 ---
 
 On the occasion of the [50th BATbern event](https://www.berner-architekten-treffen.ch/event/50), it occurred to me that it has been roughly 50 years since I started programming.
