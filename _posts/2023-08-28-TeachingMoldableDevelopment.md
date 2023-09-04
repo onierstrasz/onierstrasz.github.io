@@ -8,7 +8,7 @@ Moldable Development is a way of developing software in which you build many, sm
 
 This blog article is based on a talk presented at [ESUG 2023](https://esug.github.io/2023-Conference/conf2023.html), in which we report on the challenges and and insights we have experienced in teaching moldable development to newcomers.
 
-See the original article on the [feenk blog](https://lepiter.io/feenk/teaching-moldable-development-dkbj2hlidhiph2eodusb87ye6.html/).
+See the original article on the [feenk blog](https://lepiter.io/feenk/teaching-moldable-development-dkbj2hlidhiph2eodusb87ye6/).
 
 ---
 
