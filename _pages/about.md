@@ -17,8 +17,4 @@ He is co-author of over 400 [publications](/publications), including the open-so
 
 [Mind the gap — 50 years of shortening feedback loops](/posts/2023-06-12-MindTheGap) -- blog post based on an invited talk at the [50th BATbern event](https://www.berner-architekten-treffen.ch).
 
-# Upcoming events
-
-*PC Member* of [SLE 2023](https://www.sleconf.org/2023/) (ACM SIGPLAN International Conference on Software Language Engineering &mdash; Cascais, Portugal, co-located with [SPLASH 2023](https://2023.splashcon.org) Oct. 22-27, 2023)
-
 See also: [Past and upcoming events](/past)

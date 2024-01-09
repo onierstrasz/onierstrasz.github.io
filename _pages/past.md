@@ -14,6 +14,10 @@ See also: [Dagstuhls I have attended](/dagstuhl).
 
 ## 2023
 
+- *Keynote speaker* at [Smalltalks 2023](https://smalltalks2023.fast.org.ar) (15th conference on Smalltalk based technologies, research and industry applications, Quilmes, Argentina, Nov. 6 - 10, 2023) — Moldable Development patterns
+
+- *PC Member* of [SLE 2023](https://www.sleconf.org/2023/) (ACM SIGPLAN International Conference on Software Language Engineering &mdash; Cascais, Portugal, co-located with [SPLASH 2023](https://2023.splashcon.org) Oct. 22-27, 2023)
+
 - *Speaker* at [ESUG 2023](https://esug.github.io/2023-Conference/conf2023.html) (European Smaltalk Users Group, Lyon, Aug. 28 - Sep. 1, 2023) — [Teaching Moldable Development](/posts/2023-08-28-TeachingMoldableDevelopment)
 
 - *Invited Speaker* at [BATbern50](https://www.berner-architekten-treffen.ch) (Jubiläums-BAT 50, Paul-Klee Center, Bern, 14h30-19h00, Jun. 9, 2023) — [Mind the gap — 50 years of shortening feedback loops](/talks/2023-06-09-MindTheGap-BATbern50)
