@@ -13,6 +13,9 @@ He retired from the University at the end of 2021, and is currently working at [
 He is co-author of over 400 [publications](/publications), including the open-source books *[Object-Oriented Reengineering Patterns](/oorp/)* and *[Pharo by Example](http://books.pharo.org)*.
 
 # News
+
+The video recording of my Keynote presentation on “Moldable Development Patterns” at [Smalltalks 2023](https://smalltalks2023.fast.org.ar/home) in Quilmes, Argentina is now available [on YouTube](https://youtu.be/g4MVyM7Vrn0?si=VEuVoxqkTYLjCyPB).
+
 [Teaching Moldable Development](/posts/2023-08-28-TeachingMoldableDevelopment) -- blog post based on a talk presented at [ESUG 2023](https://esug.github.io/2023-Conference/conf2023.html).
 
 [Mind the gap — 50 years of shortening feedback loops](/posts/2023-06-12-MindTheGap) -- blog post based on an invited talk at the [50th BATbern event](https://www.berner-architekten-treffen.ch).
