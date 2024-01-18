@@ -20,4 +20,8 @@ The video recording of my Keynote presentation on “Moldable Development Patter
 
 [Mind the gap — 50 years of shortening feedback loops](/posts/2023-06-12-MindTheGap) -- blog post based on an invited talk at the [50th BATbern event](https://www.berner-architekten-treffen.ch).
 
+# Upcoming events
+
+- *Keynote speaker* at [VAMOS 24](https://vamos2024.inf.unibe.ch) (18th International Working Conference on Variability Modelling of Software-Intensive Systems, Bern, Switzerland, Feb. 7 - 9, 2024) — “Embracing Software Variability to build Explainable Systems”
+
 See also: [Past and upcoming events](/past)
