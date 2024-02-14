@@ -12,6 +12,10 @@ author_profile: true
 
 See also: [Dagstuhls I have attended](/dagstuhl).
 
+## 2024
+
+- *Invited speaker* at [VAMOS 24](https://vamos2024.inf.unibe.ch/invited-talk/) (18th International Working Conference on Variability Modelling of Software-Intensive Systems, Bern, Switzerland, Feb. 7 - 9, 2024) — “Embracing Software Variability to build Explainable Systems”
+
 ## 2023
 
 - *Keynote speaker* at [Smalltalks 2023](https://smalltalks2023.fast.org.ar) (15th conference on Smalltalk based technologies, research and industry applications, Quilmes, Argentina, Nov. 6 - 10, 2023) — Moldable Development patterns

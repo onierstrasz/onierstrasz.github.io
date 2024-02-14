@@ -14,14 +14,12 @@ He is co-author of over 400 [publications](/publications), including the open-so
 
 # News
 
-The video recording of my Keynote presentation on “Moldable Development Patterns” at [Smalltalks 2023](https://smalltalks2023.fast.org.ar/home) in Quilmes, Argentina is now available [on YouTube](https://youtu.be/g4MVyM7Vrn0?si=VEuVoxqkTYLjCyPB).
+The video of my [invited talk at VAMOS 2024](https://vamos2024.inf.unibe.ch/invited-talk/), “Embracing Software Variability to build Explainable Systems,” is now [on YouTube](https://youtu.be/KsAq25yT-CU).
+
+The video of my Keynote presentation on “Moldable Development Patterns” at [Smalltalks 2023](https://smalltalks2023.fast.org.ar/home) in Quilmes, Argentina is available [on YouTube](https://youtu.be/g4MVyM7Vrn0?si=VEuVoxqkTYLjCyPB).
 
 [Teaching Moldable Development](/posts/2023-08-28-TeachingMoldableDevelopment) -- blog post based on a talk presented at [ESUG 2023](https://esug.github.io/2023-Conference/conf2023.html).
 
 [Mind the gap — 50 years of shortening feedback loops](/posts/2023-06-12-MindTheGap) -- blog post based on an invited talk at the [50th BATbern event](https://www.berner-architekten-treffen.ch).
-
-# Upcoming events
-
-- *Invited speaker* at [VAMOS 24](https://vamos2024.inf.unibe.ch) (18th International Working Conference on Variability Modelling of Software-Intensive Systems, Bern, Switzerland, Feb. 7 - 9, 2024) — “Embracing Software Variability to build Explainable Systems”
 
 See also: [Past and upcoming events](/past)
