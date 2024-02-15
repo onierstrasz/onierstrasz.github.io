@@ -6,7 +6,7 @@ author_profile: true
 
 ## Upcoming events
 
-- *PC Member* of [SLE 2023](https://www.sleconf.org/2023/) (ACM SIGPLAN International Conference on Software Language Engineering &mdash; Cascais, Portugal, co-located with [SPLASH 2023](https://2023.splashcon.org) Oct. 22-27, 2023)
+- *PC Member* of [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-papers) (co-located with [SPLASH 2024](https://2024.splashcon.org) &mdash; Pasadena, CA USA, Oct. 20-25, 2024)
 
 ## Past events (1998-present)
 

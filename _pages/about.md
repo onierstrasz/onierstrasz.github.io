@@ -22,4 +22,8 @@ The video of my Keynote presentation on “Moldable Development Patterns” at [
 
 [Mind the gap — 50 years of shortening feedback loops](/posts/2023-06-12-MindTheGap) -- blog post based on an invited talk at the [50th BATbern event](https://www.berner-architekten-treffen.ch).
 
+## Upcoming events
+
+- *PC Member* of [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-papers) (co-located with [SPLASH 2024](https://2024.splashcon.org) &mdash; Pasadena, CA USA, Oct. 20-25, 2024)
+
 See also: [Past and upcoming events](/past)
