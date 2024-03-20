@@ -24,6 +24,8 @@ The video of my Keynote presentation on “Moldable Development Patterns” at [
 
 ## Upcoming events
 
+- *Speaker* at [Smalltalk Meetup Zurich!](https://zurich.smalltalk.world) (“Example-Driven Development” &mdash; Zurich, April 26, 2024)
+
 - *PC Member* of [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-papers) (co-located with [SPLASH 2024](https://2024.splashcon.org) &mdash; Pasadena, CA USA, Oct. 20-25, 2024)
 
 See also: [Past and upcoming events](/past)
