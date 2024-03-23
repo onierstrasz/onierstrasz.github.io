@@ -1,0 +1,405 @@
+/*
+    Common rules
+ */
+
+:root {
+    /* --min-column-width does not work in media queries.
+     It is here for documentation purposes only. */
+    --min-column-width: 992px;
+}
+
+/* Add space at the top and bottom of figures */
+main figure {
+    padding-block: 1rem;
+}
+
+/* Add shadow around figures */
+main figure > img {
+    max-width: 100%;
+    background-color: white;
+}
+
+main figure >img:hover {
+    box-shadow: 0 0 5px 5px lightgray;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #6c757d;
+    text-align: center;
+}
+
+/*
+    Snippet children.
+    Disable the indent. We need to implement collapsable widget first.
+ */
+
+/* Indent snippet children. Do not indent the top-snippet children. */
+/*.snippet-children .snippet-children {
+    padding-inline-start: 0.5rem;
+}*/
+
+/* Make the snippet children indent more apparent on large screens. */
+/*@media (min-width: 992px) {
+    .snippet-children .snippet-children {
+        padding-inline-start: 1rem;
+    }
+}*/
+
+/* Widths */
+
+.fullWidth {
+  width: 100%;
+}
+
+/* Limit snippet content width on large screens.
+   It does not limit headings. */
+@media (min-width: 992px) {
+  .paragraphWidth {
+    width: 608px;
+  }
+  .documentWidth {
+    width: 808px;
+  }
+}
+
+
+
+/*
+    --------------------------------
+    Snippets other than text snippet
+    --------------------------------
+ */
+
+
+/*
+    --------------------------------
+    Text snippet
+    --------------------------------
+ */
+
+/*
+    --------------------------------
+    Text snippet - annotations
+    --------------------------------
+ */
+
+.annotation {
+}
+
+.annotation-label {
+}
+
+.annotation-label-code {
+    font-family: "Source Code Pro", monospace;
+    background-color: #F0F0F0;
+}
+
+.annotation-label-code:hover {
+    background-color: #E0E0E0;
+}
+
+/* indicates that this is a clickable annotation label
+   which should expand/collapse .expandable-annotation-view siblings */
+.expandable-annotation-label {
+}
+
+/* indicates that the annotation view is expanded */
+.annotation-sibling-is-expanded {
+}
+
+/* indicates that the annotation view is collapsed */
+.annotation-sibling-is-collapsed {
+}
+
+/* indicates that this is an expandable annotation view */
+.expandable-annotation-view {
+}
+
+/* indicates that this is an annotation view is expanded */
+.expanded-annotation-view {
+    display: block;
+}
+
+/* indicates that this is an annotation view is collapsed */
+.collapsed-annotation-view {
+    display: none;
+}
+
+.code-snippet code {
+    font-family: "Source Code Pro", monospace;
+    color: inherit;
+    white-space: pre;
+    display: block;
+    margin-block-end: 1rem;
+}
+
+/*
+    --------------------------------
+    Other rules
+    --------------------------------
+ */
+
+.hidden_annotation_v3 {
+    display: none;
+}
+
+.visible_annotation_v3 {
+    display: block;
+}
+
+.expandable_annotation_label {
+}
+
+.collapsed_annotation_body::after {
+
+}
+
+.expanded_annotation_body::after {
+
+}
+
+.expandable_annotation_body {
+
+}
+
+.pharo-method-snippet {
+
+}
+
+.pharo-method-snippet::after {
+    content: "Pharo method";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.pharo-class-definition {
+
+}
+
+.pharo-class-definition::after {
+    content: "Pharo class definition";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.class_annotation {
+    font-family: "Source Code Pro", monospace;
+    background-color: #F0F0F0;
+}
+
+.hidden_annotation .class_definition {
+    display: none;
+}
+
+.visible_annotation .class_definition {
+    display: block;
+}
+
+.class_definition {
+    white-space: pre;
+    background-color: #F8F8F8;
+}
+
+.example_annotation {
+}
+
+.example_definition {
+    font-family: "Source Code Pro", monospace;
+    white-space: pre;
+    margin-top: 10pt;
+    margin-left: 20pt;
+    background-color: #F8F8F8;
+}
+
+.example_result {
+    font-family: "Source Code Pro", monospace;
+    white-space: pre;
+    margin-top: 10pt;
+    margin-left: 20pt;
+    background-color: #F8F8F8;
+}
+
+.code_block {
+    font-family: "Source Code Pro", monospace;
+}
+
+.snippet {
+    margin-top: 10pt;
+}
+.textual-snippet {
+
+}
+
+.code-snippet {
+    font-family: "Source Code Pro", monospace;
+    border-left: 10px solid #eee;
+    padding-left: 10px;
+    border-radius: 5px;
+    tab-size: 4;
+}
+
+.pharo-snippet {
+
+}
+
+.pharo-snippet::after {
+    content: "Pharo";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.pharolink-snippet::after {
+    content: "PharoLink";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.python-snippet::after {
+    content: "Python";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.javascript-snippet::after {
+    content: "JavaScript";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.gemstone-snippet::after {
+    content: "GemStone";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.changes-snippet::after {
+    content: "Pharo changes";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.graphql-snippet::after {
+    content: "GraphQL";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.graphqlinput-snippet::after {
+    content: "GraphQL input";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.pharorewrite-snippet::after {
+    content: "Pharo rewrite";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.pharoreplace-snippet::after {
+    content: "Pharo replace";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.robocodermetamodel-snippet::after {
+    content: "Robocoder metamodel";
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.text-snippet {
+
+}
+
+.picture-snippet {
+    margin-bottom: 2rem;
+}
+
+/* Word snippet */
+
+.explanation-word {
+    font-weight: bold;
+    margin-block-end: 0;
+}
+
+.explanation-meaning {
+    font-style: italic;
+    margin-block-end: 0;
+}
+
+.explanation-definition {
+    font-style: italic;
+    margin-block-end: 0;
+    margin-inline-start: 1rem;
+}
+
+.explanation-example {
+    color: #aaa;
+    margin-inline-start: 1rem;
+}
+
+.tweet-reference-snippet {
+
+}
+
+.youtube-reference-snippet {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.youtube-reference-snippet iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.height-one-em {
+    height: 1rem;
+}
+
+.no_bottom_margin {
+    margin-bottom: 0;
+}
+
+
+/*
+    LEGACY CODE for a backward compatibility reasons
+ */
+
+.method_annotation {
+    font-family: "Source Code Pro", monospace;
+    background-color: #F0F0F0;
+}
+
+.hidden_annotation .method_definition {
+    display: none;
+}
+
+.visible_annotation .method_definition {
+    display: block;
+}
+
+.method_definition {
+    font-family: "Source Code Pro", monospace;
+    white-space: pre;
+    background-color: #F8F8F8;
+}
+
+.hidden_annotation>.method_definition {
+    display: none;
+}
+
+.visible_annotation>.method_definition {
+    display: block;
+}
+
+/*
+    End of LEGACY CODE
+ */
