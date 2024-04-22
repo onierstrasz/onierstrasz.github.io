@@ -20,7 +20,7 @@ The video of my Keynote presentation on “Moldable Development Patterns” at [
 
 ## Upcoming events
 
-- *Speaker* at [Smalltalk Meetup Zurich](https://zurich.smalltalk.world) (Zurich, April 26, 2024) &mdash; [“Example-Driven Development”](/talks/2024-04-26-ExampleDrivenDevelopment)
+- *Speaker* at [Smalltalk Meetup Zurich](https://zurich.smalltalk.world) (Zurich, April 26, 2024) &mdash; [Example-Driven Development](/talks/2024-04-26-ExampleDrivenDevelopment)
 
 - *Guest lecturer* for [Programming 2 (introduction to object-oriented design)](https://seg.inf.unibe.ch/teaching/current/p2/) (U. Bern, May 9, 2024) &mdash; [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
 
