@@ -4,4 +4,4 @@ Access via [https://www.oscar.nierstrasz.org/files/gtPages/](https://www.oscar.n
 
 *NB:* The assets folder can be shared across GT pages.
 
-- [SPL PetitParser Slideshow](/files/gtPages/SPLPetitParserSlideshow.html)
+- [Draft EDD blog post](/files/gtPages/EDD-blog-draft/index.html)
