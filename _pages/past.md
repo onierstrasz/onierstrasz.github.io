@@ -1,12 +1,8 @@
 ---
-title: Past and upcoming events
+title: Past events
 permalink: /past/
 author_profile: true
 ---
-
-## Upcoming events
-
-- *PC Member* of [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-papers) (co-located with [SPLASH 2024](https://2024.splashcon.org) &mdash; Pasadena, CA USA, Oct. 20-25, 2024)
 
 ## Past events (1998-present)
 
