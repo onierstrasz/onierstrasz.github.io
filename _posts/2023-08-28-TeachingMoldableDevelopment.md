@@ -6,10 +6,6 @@ permalink: /posts/2023-08-28-TeachingMoldableDevelopment
 
 Moldable Development is a way of developing software in which you build many, small custom tools to solve problems. This implies new tools and new associated skills. As with any new way of thinking, teaching can be challenging. In this session we go draw lessons from our experience of teaching Moldable Development in practice, including how it changes the teaching experience itself.
 
-This blog article is based on a talk presented at [ESUG 2023](https://esug.github.io/2023-Conference/conf2023.html), in which we report on the challenges and and insights we have experienced in teaching moldable development to newcomers.
-
-See the original article on the [feenk blog](https://lepiter.io/feenk/teaching-moldable-development-dkbj2hlidhiph2eodusb87ye6/).
-
 ---
 
 Moldable development is a *new* way of programming. In many ways it looks like programming as we are used to it, but it actually entails fundamentally different ways of thinking about programming, and new *patterns* of programming.
@@ -175,4 +171,11 @@ In the end, what is important to convey is that Moldable Development is a *proce
 Moldable Development is a new way of programming that takes time to learn, but that in the end boils down to a set of learnable patterns.
 
 [![Moldable Patterns map](/assets/images/esug2023/patternsMap.png)](/assets/images/esug2023/patternsMap.png)
+
+---
+
+
+This blog article is based on a talk presented at [ESUG 2023](https://esug.github.io/2023-Conference/conf2023.html), in which we report on the challenges and and insights we have experienced in teaching moldable development to newcomers.
+
+See the original article on the [feenk blog](https://lepiter.io/feenk/teaching-moldable-development-dkbj2hlidhiph2eodusb87ye6/).
 
