@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Creating a GitLab project</title>
+
+    <!-- browser setup -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <!-- page meta information -->
+    <meta name="description" content="OK, not everyone likes to use GitHub. If you are a GitLab user, the process of setting up a new project is pretty much the same, but there are some minor differences and a come things to fix for now.">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="gtoolkit book">
+    <meta property="og:title" content="Creating a GitLab project">
+    <meta property="og:url" content="https://book.gtoolkit.com/index.html">
+    <meta property="og:description" content="OK, not everyone likes to use GitHub. If you are a GitLab user, the process of setting up a new project is pretty much the same, but there are some minor differences and a come things to fix for now.">
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="../assets/vendor/awesomefonts/css/all.css">
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/v1/src/css/lepiter-common.css">
+    <link rel="stylesheet" href="../assets/v1/src/css/lepiter-snippets.css">
+    <link rel="stylesheet" href="../assets/v1/src/css/vs.css">
+</head>
+<body>
+
+    <div class="content">
+        <div class="container min-height py-5 le-main-container">
+            <main>
+                <h1 class="le-main-title">Creating a GitLab project</h1>
+
+                <!-- page content start -->
+
+                <div class="snippet textual-snippet text-snippet paragraphWidth">  <p>OK, not everyone likes to use GitHub. If you are a GitLab user, the process of setting up a new project is pretty much the same, but there are some minor differences and a come things to fix for now.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>(0) Sign into GitLab.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>(1) Create a new, empty project without any README or anything else.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>NB: If you can authenticate with SSH (Mac or Linux), you need to set /up your SSH credentials. Otherwise, with https, you will need to set a password or a personal access token.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1000.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>(2) Clone the repo with the GT Git tool.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1001.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>You should now see your project listed in the Git tool with a red <code>x</code>. If you select it you should see a menu of actions to perform.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1002.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>(3) Set up the metadata and source directory.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>By default this is called <code>src</code>. It is the folder where all your packages will be stored. Just click on <code>Create a source directory</code> and select the checkmark (√).  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1003.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>(4) Set up a package and baseline.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>This will create a <code>Baseline</code> package and class with a <code>baseline</code> method to automate loading of your repository. Again, just click and accept.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>    <i>Caveat:    </i> This will only work partially. The update of the README will fail with a     <i>PP2Failure    </i>. We'll fix this later.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>(5) Set up the project Lepiter database.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>This is a dedicated Lepiter notebook database for your project. It is optional, but highly recommended. Just click and be happy!  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>(6) Review the README  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>It should contain the snippets you will need to automate loading both your repo and the Lepiter database. If the baseline setup failed (as expect) you will need to update the load script. It should look something like this:  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2> Installation  </h2>
+  <div class="code_block">    <pre>      <code class="smalltalk">Metacello new
+	repository: 'gitlab://onierstrasz/myproject:master/src';
+	baseline: 'Myproject';
+	load      </code>    </pre>  </div>
+  <h3> Load Lepiter  </h3>				After installing with Metacello, you will be able to execute  <div class="code_block">    <pre>      <code class="smalltalk">#BaselineOfMyproject asClass loadLepiter      </code>    </pre>  </div></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>To fix it, copy-paste the text above into the README, making sure that the <code>repository:</code> specifies a <code>gitlab</code> project and the <code>master</code> (not <code>main</code>) branch. You can find the full package name to use in the     <i>Packages    </i> view.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1004.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>(7) Commit.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Commit and     <i>push    </i> your changes from the     <i>Changes    </i> tab in the Git tool.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>(8) Now you should be able to load your repo into a     <i>fresh    </i> image by running your version of the load script:  </p></div><div class="snippet textual-snippet code-snippet pharo-snippet fullWidth">  <pre class="no_bottom_margin">Metacello new
+	repository: 'gitlab://onierstrasz/myproject:master/src';
+	baseline: 'Myproject';
+	load.#BaselineOfMyproject asClass loadLepiter.  </pre></div><div class="snippet textual-snippet text-snippet paragraphWidth"></div>
+
+                <!-- page content end -->
+            </main>
+        </div>
+    </div>
+
+    <footer class="text-center py-5 le-footer">
+        <p class="le-footer-credits">
+            Powered by <a class="le-footer-link" href="https://lepiter.com">Lepiter</a> | <a class="le-footer-link" href="https://feenk.com/privacy">Privacy Policy</a>
+        </p>
+    </footer>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="../assets/vendor/jquery/js/jquery.js"></script>
+    <script type="text/javascript" src="../assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/datefns.min.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/highlight.pack.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/lepiter-common.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/lepiter-snippets.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/lepiter-time.js"></script>
+</body>
+</html>
