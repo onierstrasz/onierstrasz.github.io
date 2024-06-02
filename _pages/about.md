@@ -14,15 +14,13 @@ He is co-author of over 400 [publications](/publications), including the open-so
 
 # News
 
+Read about [Example-Driven Development](/posts/2024-04-25-EDD), a variant of TDD in which you drive development by constructing test methods that return example objects.
+
 The video of my [invited talk at VAMOS 2024](https://vamos2024.inf.unibe.ch/invited-talk/), “Embracing Software Variability to build Explainable Systems,” is now [on YouTube](https://youtu.be/KsAq25yT-CU).
 
 The video of my Keynote presentation on “Moldable Development Patterns” at [Smalltalks 2023](https://smalltalks2023.fast.org.ar/home) in Quilmes, Argentina is available [on YouTube](https://youtu.be/g4MVyM7Vrn0?si=VEuVoxqkTYLjCyPB).
 
 ## Upcoming events
-
-- *Speaker* at [Smalltalk Meetup Zurich](https://zurich.smalltalk.world) (Zurich, April 26, 2024) &mdash; [Example-Driven Development](/talks/2024-04-26-ExampleDrivenDevelopment)
-
-- *Guest lecturer* for [Programming 2 (introduction to object-oriented design)](https://seg.inf.unibe.ch/teaching/current/p2/) (U. Bern, May 9, 2024) &mdash; [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
 
 - *PC Member* of [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-papers) (co-located with [SPLASH 2024](https://2024.splashcon.org) &mdash; Pasadena, CA USA, Oct. 20-25, 2024)
 
