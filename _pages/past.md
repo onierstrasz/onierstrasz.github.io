@@ -10,6 +10,8 @@ See also: [Dagstuhls I have attended](/dagstuhl).
 
 ## 2024
 
+- *Author* at [EuroPLoP 2024](https://www.europlop.net/conference/) (Kloster Irsee, Germany, July 3-7, 2024)
+
 - *Guest lecturer* for [Programming 2 (introduction to object-oriented design)](https://seg.inf.unibe.ch/teaching/current/p2/) (U. Bern, May 9, 2024) &mdash; [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
 
 - *Speaker* at [Smalltalk Meetup Zurich](https://zurich.smalltalk.world) (Zurich, April 26, 2024) &mdash; [Example-Driven Development](/talks/2024-04-26-ExampleDrivenDevelopment)
