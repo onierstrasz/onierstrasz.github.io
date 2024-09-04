@@ -16,12 +16,10 @@ He is co-author of over 400 [publications](/publications), including the open-so
 
 Read about [Example-Driven Development](/posts/2024-04-25-EDD), a variant of TDD in which you drive development by constructing test methods that return example objects.
 
-The video of my [invited talk at VAMOS 2024](https://vamos2024.inf.unibe.ch/invited-talk/), “Embracing Software Variability to build Explainable Systems,” is now [on YouTube](https://youtu.be/KsAq25yT-CU).
-
-The video of my Keynote presentation on “Moldable Development Patterns” at [Smalltalks 2023](https://smalltalks2023.fast.org.ar/home) in Quilmes, Argentina is available [on YouTube](https://youtu.be/g4MVyM7Vrn0?si=VEuVoxqkTYLjCyPB).
-
 ## Upcoming events
 
-- *PC Member* of [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-papers) (co-located with [SPLASH 2024](https://2024.splashcon.org) &mdash; Pasadena, CA USA, Oct. 20-25, 2024)
+- *Speaker* at [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-papers) (co-located with [SPLASH 2024](https://2024.splashcon.org) Pasadena, CA USA, Oct. 20-25, 2024) &mdash; [Moldable Exceptions (preprint available)](https://2024.splashcon.org/details/splash-2024-Onward-papers/1/Moldable-Exceptions)
+
+- *Speaker* at [Live 2024](https://2024.splashcon.org/home/live-2024) (co-located with [SPLASH 2024](https://2024.splashcon.org) Pasadena, CA USA, Oct. 21, 2024) &mdash; [Example-driven development: bridging tests and documentation (preprint available)](https://2024.splashcon.org/details/live-2024-papers/13/Example-driven-development-bridging-tests-and-documentation)
 
 See also: [Past events](/past)

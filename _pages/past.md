@@ -10,33 +10,35 @@ See also: [Dagstuhls I have attended](/dagstuhl).
 
 ## 2024
 
+- *PC Member* of [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-papers) (co-located with [SPLASH 2024](https://2024.splashcon.org) &mdash; Pasadena, CA USA, Oct. 20-25, 2024)
+
 - *Author* at [EuroPLoP 2024](https://www.europlop.net/conference/) (Kloster Irsee, Germany, July 3-7, 2024)
 
 - *Guest lecturer* for [Programming 2 (introduction to object-oriented design)](https://seg.inf.unibe.ch/teaching/current/p2/) (U. Bern, May 9, 2024) &mdash; [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
 
 - *Speaker* at [Smalltalk Meetup Zurich](https://zurich.smalltalk.world) (Zurich, April 26, 2024) &mdash; [Example-Driven Development](/talks/2024-04-26-ExampleDrivenDevelopment)
 
-- *Invited speaker* at [VAMOS 24](https://vamos2024.inf.unibe.ch/invited-talk/) (18th International Working Conference on Variability Modelling of Software-Intensive Systems, Bern, Switzerland, Feb. 7 - 9, 2024) — “Embracing Software Variability to build Explainable Systems”
+- *Invited speaker* at [VAMOS 24](https://vamos2024.inf.unibe.ch/invited-talk/) (18th International Working Conference on Variability Modelling of Software-Intensive Systems, Bern, Switzerland, Feb. 7 - 9, 2024) &mdash; “Embracing Software Variability to build Explainable Systems” ([YouTube video](https://youtu.be/KsAq25yT-CU).)
 
 ## 2023
 
-- *Keynote speaker* at [Smalltalks 2023](https://smalltalks2023.fast.org.ar) (15th conference on Smalltalk based technologies, research and industry applications, Quilmes, Argentina, Nov. 6 - 10, 2023) — Moldable Development patterns
+- *Keynote speaker* at [Smalltalks 2023](https://smalltalks2023.fast.org.ar) (15th conference on Smalltalk based technologies, research and industry applications, Quilmes, Argentina, Nov. 6 - 10, 2023) &mdash; Moldable Development patterns ([YouTube video](https://youtu.be/g4MVyM7Vrn0?si=VEuVoxqkTYLjCyPB))
 
 - *PC Member* of [SLE 2023](https://www.sleconf.org/2023/) (ACM SIGPLAN International Conference on Software Language Engineering &mdash; Cascais, Portugal, co-located with [SPLASH 2023](https://2023.splashcon.org) Oct. 22-27, 2023)
 
-- *Speaker* at [ESUG 2023](https://esug.github.io/2023-Conference/conf2023.html) (European Smaltalk Users Group, Lyon, Aug. 28 - Sep. 1, 2023) — [Teaching Moldable Development](/posts/2023-08-28-TeachingMoldableDevelopment)
+- *Speaker* at [ESUG 2023](https://esug.github.io/2023-Conference/conf2023.html) (European Smaltalk Users Group, Lyon, Aug. 28 - Sep. 1, 2023) &mdash; [Teaching Moldable Development](/posts/2023-08-28-TeachingMoldableDevelopment)
 
-- *Invited Speaker* at [BATbern50](https://www.berner-architekten-treffen.ch) (Jubiläums-BAT 50, Paul-Klee Center, Bern, 14h30-19h00, Jun. 9, 2023) — [Mind the gap — 50 years of shortening feedback loops](/talks/2023-06-09-MindTheGap-BATbern50)
+- *Invited Speaker* at [BATbern50](https://www.berner-architekten-treffen.ch) (Jubiläums-BAT 50, Paul-Klee Center, Bern, 14h30-19h00, Jun. 9, 2023) &mdash; [Mind the gap &mdash; 50 years of shortening feedback loops](/talks/2023-06-09-MindTheGap-BATbern50)
 
-- *Guest lecturer* at University of Bern, May 12, 2023 — [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
+- *Guest lecturer* at University of Bern, May 12, 2023 &mdash; [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
 
-- *Guest lecturer* at University of Bern, April 6, 2023 — [PEGs, Packrats and Parser Combinators](/teaching/2023-04-06-PEGs)
+- *Guest lecturer* at University of Bern, April 6, 2023 &mdash; [PEGs, Packrats and Parser Combinators](/teaching/2023-04-06-PEGs)
 
 ## 2022
 
-- *Guest lecturer* at University of Bern, May 20, 2022 — [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
+- *Guest lecturer* at University of Bern, May 20, 2022 &mdash; [A bit of Smalltalk](/teaching/2022-05-20-ABitOfSmalltalk)
 
-- *Keynote Speaker* for [VISSOFT 2022](https://vissoft.info/2022/) (10th IEEE Working Conference on Software Visualization &mdash; Limmasol, Cyprus, Oct. 2-3, 2022) — [Making Systems Explainable](/talks/2022-10-03-VISSOFT-MakingSystemsExplainable)
+- *Keynote Speaker* for [VISSOFT 2022](https://vissoft.info/2022/) (10th IEEE Working Conference on Software Visualization &mdash; Limmasol, Cyprus, Oct. 2-3, 2022) &mdash; [Making Systems Explainable](/talks/2022-10-03-VISSOFT-MakingSystemsExplainable)
 
 ## 2021
 
@@ -44,7 +46,7 @@ See also: [Dagstuhls I have attended](/dagstuhl).
 
 ## 2020
 
--  Keynote Speaker at [ASE 2020 Doctoral Symposium](https://conf.researchr.org/track/ase-2020/ase-2020-doctoral-symposium) (35th IEEE/ACM International Conference on Automated Software Engineering &mdash; Melbourne, Australia, Sept. 21, 2020) — [Taming your PhD](/talks/2020-09-21-TamingYourPhD-ASE2020)
+-  Keynote Speaker at [ASE 2020 Doctoral Symposium](https://conf.researchr.org/track/ase-2020/ase-2020-doctoral-symposium) (35th IEEE/ACM International Conference on Automated Software Engineering &mdash; Melbourne, Australia, Sept. 21, 2020) &mdash; [Taming your PhD](/talks/2020-09-21-TamingYourPhD-ASE2020)
 - *PC Member* of [SANER 2020](https://saner2020.csd.uwo.ca) (27th IEEE International Conference on Software Analysis, Evolution and Reengineering - London, Ontario, Canada, Feb. 18-21, 2020)
 
 ## 2019
@@ -60,7 +62,7 @@ See also: [Dagstuhls I have attended](/dagstuhl).
 ## 2017
 
 - *PC Member* of [BENEVOL 2017](http://ansymore.uantwerpen.be/events/benevol2017) (16th BElgian-NEtherlands software eVOLution symposium &mdash; University of Antwerp, Belgium, Dec 4-5, 2017)
-- *Invited Speaker* at [Simula 50 Years](https://www.mn.uio.no/ifi/personer/vit/dag/simula67/50years/) (50 years anniversary of Simula, the first object-oriented programming language &mdash; Oslo, Norway, Sept. 27, 2017) — [Great Moments in the History of OOP](/talks/2017-09-27-Simula50-GreatMomentsInTheHistoryOfOOP)
+- *Invited Speaker* at [Simula 50 Years](https://www.mn.uio.no/ifi/personer/vit/dag/simula67/50years/) (50 years anniversary of Simula, the first object-oriented programming language &mdash; Oslo, Norway, Sept. 27, 2017) &mdash; [Great Moments in the History of OOP](/talks/2017-09-27-Simula50-GreatMomentsInTheHistoryOfOOP)
 - *PC Member* of [ICSME 2017](https://icsme2017.github.io) (International Conference on Software Maintenance and Evolution &mdash; Shanghai, China, Sept. 17-23, 2017)
 - *PC Member* of [SANER 2017](http://saner.aau.at) (International Conference on Software Analysis, Evolution, and Reengineering &mdash;  Klagenfurt, Austria, Feb. 21-24, 2017)
 
@@ -71,7 +73,7 @@ See also: [Dagstuhls I have attended](/dagstuhl).
 - *PC Member* of [Onward! 2016 Essays Track](http://conf.researchr.org/track/onward2016/onward2016-essays) (Splash / Onward! 2016 &mdash;  Amsterdam, The Netherlands, Oct. 30 - Nov. 4, 2016)
 -  *Invited Speaker* at [SATToSE 2016](http://sattose.org/2016/) (9th Seminar Series on Advanced Techniques &amp; Tools for Software Evolution &mdash; Bergen, Norway, July 11&mdash;13, 2016)
 -  *Co-organizer* of [Engineering Academic Software](http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=16252) (Dagstuhl Perspectives Workshop 16252 &mdash; Dagstuhl, Germany, June 19-24, 2016)
--  *Invited Speaker* at [FASE-ETAPS 2016](http://www.etaps.org/index.php/2016/fase) (19th International Conference on Fundamental Approaches to Software Engineering (FASE) &mdash; Eindhoven, The Netherlands, April 4-7, 2016) — [The Death of Object-Oriented Programming](/talks/2016-04-13-TheDeathOfOOP-FASE2016)
+-  *Invited Speaker* at [FASE-ETAPS 2016](http://www.etaps.org/index.php/2016/fase) (19th International Conference on Fundamental Approaches to Software Engineering (FASE) &mdash; Eindhoven, The Netherlands, April 4-7, 2016) &mdash; [The Death of Object-Oriented Programming](/talks/2016-04-13-TheDeathOfOOP-FASE2016)
 - *PC Member* of [SANER 2016](http://saner.inf.usi.ch) (International Conference on Software Analysis, Evolution, and Reengineering &mdash;  Osaka, Japan, March 14-18, 2016)
 
 ## 2015
