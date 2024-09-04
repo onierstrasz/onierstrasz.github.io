@@ -18,7 +18,7 @@ See also: [Dagstuhls I have attended](/dagstuhl).
 
 - *Speaker* at [Smalltalk Meetup Zurich](https://zurich.smalltalk.world) (Zurich, April 26, 2024) &mdash; [Example-Driven Development](/talks/2024-04-26-ExampleDrivenDevelopment)
 
-- *Invited speaker* at [VAMOS 24](https://vamos2024.inf.unibe.ch/invited-talk/) (18th International Working Conference on Variability Modelling of Software-Intensive Systems, Bern, Switzerland, Feb. 7 - 9, 2024) &mdash; “Embracing Software Variability to build Explainable Systems” ([YouTube video](https://youtu.be/KsAq25yT-CU).)
+- *Invited speaker* at [VAMOS 24](https://vamos2024.inf.unibe.ch/invited-talk/) (18th International Working Conference on Variability Modelling of Software-Intensive Systems, Bern, Switzerland, Feb. 7 - 9, 2024) &mdash; “Embracing Software Variability to build Explainable Systems” ([YouTube video](https://youtu.be/KsAq25yT-CU))
 
 ## 2023
 
