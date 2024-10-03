@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EDDLiveSlideshow</title>
+
+    <!-- browser setup -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <!-- page meta information -->
+    <meta name="description" content="Hello. My name is Oscar Nierstrasz.">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="gtoolkit book">
+    <meta property="og:title" content="EDDLiveSlideshow">
+    <meta property="og:url" content="https://book.gtoolkit.com/index.html">
+    <meta property="og:description" content="Hello. My name is Oscar Nierstrasz.">
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="../assets/vendor/awesomefonts/css/all.css">
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/v1/src/css/lepiter-common.css">
+    <link rel="stylesheet" href="../assets/v1/src/css/lepiter-snippets.css">
+    <link rel="stylesheet" href="../assets/v1/src/css/vs.css">
+</head>
+<body>
+
+    <div class="content">
+        <div class="container min-height py-5 le-main-container">
+            <main>
+                <h1 class="le-main-title">EDDLiveSlideshow</h1>
+
+                <!-- page content start -->
+
+                <div class="snippet textual-snippet text-snippet paragraphWidth">  <h2> Example-Driven Development -- bridging tests and documentation  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Hello. My name is Oscar Nierstrasz.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Today I'd like to show you how turning tests cases into factories for examples can enable opportunities for embedding live examples into documentation.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Furthermore, examples can form the basis of a development process driven by the creation of examples.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1000.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth"></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2> Examples as Documentation  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>
+Here we see the Glamorous Toolkit (or GT) Book, a knowledge base for GT, a moldable development environment.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>This page documents the Ludo game case study using embedded examples. If we scroll down, we see different kinds of moves of the game examplified, including an “impossible move.”  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>We can dive into this example, and explore various views of the move, and even replay the game up to this point to understand how we got here.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>If we explore the source code of the example, we see it belongs to a class of example methods. This move is just the last move of another example that shows all 5 kinds of moves. The method looks just like a unit test case, with the only difference being that we return the fixture as a result that we can inspect.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>We can also reuse the results to build new examples. Here is a map of all the examples in this class showing how they are composed.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>If we break one of the examples, then the dependent tests won't be run.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1001.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>- Scroll down to Impossible move- Inspect the example- Replay to here- Inspect the moved of the game- Go back and inspect the source code- Open the code bubble of <code>gameShowingAllMoves5</code>- Show that it returns an example- Inspect the example- Show the example map- Break an assertion- Run the examples and show which are not run  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2> What's an Example?  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>An example method is just a test method that happens to return the object being tested.Through this simple change, instead of a passing test simply being green, we get back an object that we can inspect, explore, and reuse for various purposes.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1002.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth"></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2> Turning tests  into examples  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Turning conventional tests into examples is straightforward. Here we have a class that tests the <code>FileLocator</code> utility.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>If we run these tests, they are green, but we cannot explore an example unless we break an assertion so the test fails.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>We can turn this test into an example easily as follows. We change the method name to leave the old test method as it is. We add a <code>&lt;gtExample></code> pragma (annotation). And finally we return the fixture. Now we have a green test that returns an example that we can explore.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1003.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>- Show the class- Edit the test case- Inspect the example  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2> Explaining the squarified treemap algorithm  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Here's another case study where examples are used to document an algorithm. The squarified Treemap algorithm generates very nicely laid out treemaps using a simple algorithm described in this paper.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>A better way to understand the algorithm is using live examples. The picture looks the same, but we can dive into it. At each subdivision step we see whether the algorithm accepts the new node, or if it changes direction to maintain a squarified look.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth"></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1004.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>- Scroll down to the paper- Scroll to the example right after the paper- Dive into the example- Show the     <i>Steps figure    </i> and the     <i>Steps list    </i>  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2> Summary -- Why examples?  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>What are example methods good for?  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>As we have seen, examples make dependencies between tests explicit by reusing examples as setups for other examples, thus forming a hierarchy of examples.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Best practice in test design supposedly should avoid dependencies between tests, but studies have shown that this practice instead leads to implicit dependencies due to duplicated code in test setups. This in turn leads to cascading failures due to the same setups being repeated in numerous tests. By factoring out the commonalities as examples, the duplication is removed, and cascading failures are avoided.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>A further benefit is that examples can be used in live documentation, and, as we shall see, examples support an exploratory approach to test-driven development, that we call example-driven development, or EDD.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1005.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth"></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2> Examples within GT (bonus slide)  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Examples are heavily used within GT, both as test cases and to create documentation.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1006.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>- Run at end during Q&amp;A- Inspect, switch to the inspector, and show the     <i>Metrics    </i> view  </p></div>
+
+                <!-- page content end -->
+            </main>
+        </div>
+    </div>
+
+    <footer class="text-center py-5 le-footer">
+        <p class="le-footer-credits">
+            Powered by <a class="le-footer-link" href="https://lepiter.com">Lepiter</a> | <a class="le-footer-link" href="https://feenk.com/privacy">Privacy Policy</a>
+        </p>
+    </footer>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="../assets/vendor/jquery/js/jquery.js"></script>
+    <script type="text/javascript" src="../assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/datefns.min.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/highlight.pack.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/lepiter-common.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/lepiter-snippets.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/lepiter-time.js"></script>
+</body>
+</html>
