@@ -2,7 +2,7 @@
 title: "Moldable Exceptions"
 collection: publications
 permalink: /publication/2024-10-23-Chis24a-MoldableExceptions
-excerpt: 'In this paper we introduce "moldable exceptions", a lightweight mechanism to adapt a debugger's interface based on contextual information provided by a raised exception.'
+excerpt: 'In this paper we introduce "moldable exceptions", a lightweight mechanism to adapt a debugger\'s interface based on contextual information provided by a raised exception.'
 date: 2024-10-23
 paperurl: 'https://arxiv.org/abs/2409.00465'
 venue: 'Proceedings of Onward! 2024'
