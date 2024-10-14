@@ -21,9 +21,9 @@ Read a blof post about [Example-Driven Development](/posts/2024-04-25-EDD), a va
 ## Upcoming events
 
 - *Speaker* at [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-papers) (co-located with [SPLASH 2024](https://2024.splashcon.org) Pasadena, CA USA, Oct. 20-25, 2024) &mdash; [Moldable Exceptions](https://2024.splashcon.org/details/splash-2024-Onward-papers/1/Moldable-Exceptions)
-  [(preprint available)](/publication/2024-10-23-Chis24a-MoldableExceptions)
+  ([preprint available](/publication/2024-10-23-Chis24a-MoldableExceptions))
 
 - *Speaker* at [Live 2024](https://2024.splashcon.org/home/live-2024) (co-located with [SPLASH 2024](https://2024.splashcon.org) Pasadena, CA USA, Oct. 21, 2024) &mdash; [Example-driven development: bridging tests and documentation](https://2024.splashcon.org/details/live-2024-papers/13/Example-driven-development-bridging-tests-and-documentation)
-  [(preprint available)](/publication/2024-10-21-Nier24b-Example-drivenDevelopment)
+  ([preprint available](/publication/2024-10-21-Nier24b-Example-drivenDevelopment))
 
 See also: [Past events](/past)
