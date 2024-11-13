@@ -14,7 +14,7 @@ He is co-author of over 400 [publications](/publications), including the open-so
 
 # News
 
-[Moldable Development Patterns](/publication/2024-07-03-Nier24a-MoldableDevelopmentPatterns) are a collection of mutually supporting patterns that explain how moldable development works in practice. This arXiv preprint is now available.
+[Moldable Development Patterns](/publication/2024-07-03-Nier24a-MoldableDevelopmentPatterns) are a collection of mutually supporting patterns that explain how moldable development works in practice. The [arXiv preprint](https://arxiv.org/abs/2409.18811) is now available.
 
 Read a blog post about [Example-Driven Development](/posts/2024-04-25-EDD), a variant of TDD in which you drive development by constructing test methods that return example objects.
 
