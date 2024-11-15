@@ -11,6 +11,8 @@ citation: 'Andrei Chiş and Oscar Nierstrasz and Tudor Gîrba, Moldable Exceptio
 
 [PDF download](http://scg.unibe.ch/archive/papers/Chis24aMoldableExceptions.pdf)
 | [SCG bib citation](https://scg.unibe.ch/scgbib/?query=Chis24a&filter=Year)
+| [ACM publication](https://dl.acm.org/doi/10.1145/3689492.3690044)
+| [arXiv preprint](https://arxiv.org/abs/2409.00465)
 
 # Abstract
 

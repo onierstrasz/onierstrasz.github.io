@@ -16,7 +16,11 @@ He is co-author of over 400 [publications](/publications), including the open-so
 
 [Moldable Development Patterns](/publication/2024-07-03-Nier24a-MoldableDevelopmentPatterns) are a collection of mutually supporting patterns that explain how moldable development works in practice. The [arXiv preprint](https://arxiv.org/abs/2409.18811) is now available.
 
+[Moldable Exceptions](/publication/2024-10-23-Chis24a-MoldableExceptions) are a lightweight mechanism to adapt a debugger‘s interface based on contextual information provided by a raised exception.
+In addition to the [ACM publication](https://dl.acm.org/doi/10.1145/3689492.3690044), there is an [arXiv preprint](https://arxiv.org/abs/2409.00465) available.
+
 Read a blog post about [Example-Driven Development](/posts/2024-04-25-EDD), a variant of TDD in which you drive development by constructing test methods that return example objects.
+There is now also a followup paper on [Example-driven development: bridging tests and documentation](/publication/2024-10-21-Nier24b-Example-drivenDevelopment)
 
 ## Upcoming events
 

@@ -11,6 +11,7 @@ citation: 'Oscar Nierstrasz and Andrei Chiş and Tudor Gîrba, Example-driven de
 
 [PDF download](http://scg.unibe.ch/archive/papers/Nier24bEDD.pdf)
 | [SCG bib citation](https://scg.unibe.ch/scgbib/?query=Nier24b&filter=Year)
+| [arXiv publication](https://arxiv.org/abs/2409.00514)
 
 # Abstract
 

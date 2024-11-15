@@ -11,6 +11,8 @@ citation: 'Oscar Nierstrasz and Tudor Gîrba, Moldable Development Patterns, Pro
 
 [PDF download](http://scg.unibe.ch/archive/papers/Nier24a-MoldableDevelopmentPatterns.pdf)
 | [SCG bib citation](https://scg.unibe.ch/scgbib/?query=Nier24a&filter=Year)
+| [arXiv preprint](https://arxiv.org/abs/2409.18811)
+| ACM publication to appear
 
 # Abstract
 
