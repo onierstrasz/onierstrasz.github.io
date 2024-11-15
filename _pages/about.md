@@ -20,7 +20,7 @@ He is co-author of over 400 [publications](/publications), including the open-so
 In addition to the [ACM publication](https://dl.acm.org/doi/10.1145/3689492.3690044), there is an [arXiv preprint](https://arxiv.org/abs/2409.00465) available.
 
 Read a blog post about [Example-Driven Development](/posts/2024-04-25-EDD), a variant of TDD in which you drive development by constructing test methods that return example objects.
-There is now also a followup paper on [Example-driven development: bridging tests and documentation](/publication/2024-10-21-Nier24b-Example-drivenDevelopment)
+There is now also a followup paper on [Example-driven development: bridging tests and documentation](/publication/2024-10-21-Nier24b-Example-drivenDevelopment).
 
 ## Upcoming events
 
