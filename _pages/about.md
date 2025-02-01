@@ -24,6 +24,6 @@ There is now also a followup paper on [Example-driven development: bridging test
 
 ## Upcoming events
 
-- *Speaker* at [Yow! 2024](https://yowcon.com) (Melbourne, Brisbane and Sydney, Australia, Dec 3-13, 2024) &mdash; [Moldable Development in Practice &mdash; Patterns for Legacy Modernization](https://yowcon.com/melbourne-2024/speakers/3759/oscar-nierstrasz)
+- *PC Member* of [Onward! Essays](https://2025.splashcon.org/track/splash-2025-Onward-Essays) (co-located with [SPLASH 2025](https://2025.splashcon.org) &mdash; Singapore, Oct. 12-18, 2025)
 
 See also: [Past events](/past)

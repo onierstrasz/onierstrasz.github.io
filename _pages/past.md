@@ -10,6 +10,8 @@ See also: [Dagstuhls I have attended](/dagstuhl).
 
 ## 2024
 
+- *Speaker* at [Yow! 2024](https://yowcon.com) (Melbourne, Brisbane and Sydney, Australia, Dec 3-13, 2024) &mdash; [Moldable Development in Practice &mdash; Patterns for Legacy Modernization](https://yowcon.com/melbourne-2024/speakers/3759/oscar-nierstrasz)
+
 - *Speaker* at [Onward!](https://2024.splashcon.org/track/splash-2024-Onward-papers) (co-located with [SPLASH 2024](https://2024.splashcon.org) Pasadena, CA USA, Oct. 20-25, 2024) &mdash; [Moldable Exceptions](https://2024.splashcon.org/details/splash-2024-Onward-papers/1/Moldable-Exceptions)
   ([preprint available](/publication/2024-10-23-Chis24a-MoldableExceptions))
 
