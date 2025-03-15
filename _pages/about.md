@@ -14,6 +14,8 @@ He is co-author of over 400 [publications](/publications), including the open-so
 
 # News
 
+My YOW! 2024 tech talk on applying Moldable Development patterns for legacy modernization is now [available on YouTube](https://youtu.be/F_-z0aC7Pnk).
+
 [Moldable Development Patterns](/publication/2024-07-03-Nier24a-MoldableDevelopmentPatterns) are a collection of mutually supporting patterns that explain how moldable development works in practice. The [arXiv preprint](https://arxiv.org/abs/2409.18811) is now available.
 
 [Moldable Exceptions](/publication/2024-10-23-Chis24a-MoldableExceptions) are a lightweight mechanism to adapt a debugger‘s interface based on contextual information provided by a raised exception.
