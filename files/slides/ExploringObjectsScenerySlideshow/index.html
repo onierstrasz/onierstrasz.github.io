@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ExploringObjectsScenerySlideshow</title>
+
+    <!-- browser setup -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <!-- page meta information -->
+    <meta name="description" content="Hi. I'm Oscar Nierstrasz.">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="gtoolkit book">
+    <meta property="og:title" content="ExploringObjectsScenerySlideshow">
+    <meta property="og:url" content="https://book.gtoolkit.com/index.html">
+    <meta property="og:description" content="Hi. I'm Oscar Nierstrasz.">
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="../assets/vendor/awesomefonts/css/all.css">
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/v1/src/css/lepiter-common.css">
+    <link rel="stylesheet" href="../assets/v1/src/css/lepiter-snippets.css">
+    <link rel="stylesheet" href="../assets/v1/src/css/vs.css">
+</head>
+<body>
+
+    <div class="content">
+        <div class="container min-height py-5 le-main-container">
+            <main>
+                <h1 class="le-main-title">ExploringObjectsScenerySlideshow</h1>
+
+                <!-- page content start -->
+
+                <div class="snippet textual-snippet text-snippet paragraphWidth">  <h2 id="sceneries-an-interactive-canvas-for-exploring-objects">    <a href="#sceneries-an-interactive-canvas-for-exploring-objects"> Sceneries — an interactive canvas for exploring objects    </a>  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Hi. I'm Oscar Nierstrasz.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Today I'd like to show you a prototype that started as a interactive diagram editor, but is turning into a tool for exploring graphs of objects.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1000.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth"></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2 id="scenery-mind-map">    <a href="#scenery-mind-map"> Scenery Mind map    </a>  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>A scenery consists of a canvas containing a graph of items and their connections.Items can hold any kind of object, which means that sceneries can be used to explore a graph of objects.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>The need for sceneries to be interactive was born from the frustration of having to explicitly program any kind of diagram in GT.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Some use cases are: drawing mind maps, like this one, creating ad hoc diagrams, creating class diagrams, and roadmaps.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1001.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth"></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2 id="overview-of-scenery-types">    <a href="#overview-of-scenery-types"> Overview of Scenery types    </a>  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Here we see some examples.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>We have an ad hoc diagram, a mind map, a generated and manually tweaked UML diagram, and inspectors on various kinds of objects.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Note that this slide itself is a scenery, containing some text items, and other items that are themselves embedded sceneries.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1002.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth"></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2 id="a-simple-diagram">    <a href="#a-simple-diagram"> A simple diagram    </a>  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>This is probably the simplest case, a simple diagram of text and shapes, illustrating the key concepts of reflection and reification.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>We can edit the diagram, freely move items, zoom in or out, and inspect the stencils of items, which are responsible for generating the view.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>We can also inspect the scenery itself, and explore views of its items, connections, and the generated code that will recreate the scenery.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1003.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth"></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2 id="various-inspector-items">    <a href="#various-inspector-items"> Various inspector items    </a>  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>This scenery contains various kinds of objects, such as a Ludo game, a demo of modeling discounted prices using examples, a specific view of that example, a slideshow slide, and even the result of a scripted user interaction.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>From such an inspector we can produce a new scenery containing a UML diagram generated from the object. For example from the Prices example we can produce a UML diagram of the class of the object and its associated classes.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>The scenery is live, so we can navigate to the class definitions. We can also spawn other related classes, or the representation of the package it contains.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>The generated source code can eventually be associated with a method, so it can be stored.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1004.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth"></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2 id="a-generated-uml-diagram">    <a href="#a-generated-uml-diagram"> A generated UML diagram    </a>  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Here we see a more complex UML diagram showing the key classes of the Scenery package itself.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1005.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth"></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2 id="package-exploration">    <a href="#package-exploration"> Package exploration    </a>  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Finally, from a package we can explore the examples in that package, and navigate between examples and classes, generating an object and class diagram along the way.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1006.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth"></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <h2 id="summary-mindmap">    <a href="#summary-mindmap"> Summary mindmap    </a>  </h2></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>Sceneries are still a work in progress. Some of the things we'd like to see are generated explanations for tools, roadmaps through notebook topics, and sceneries as special kinds of notebook pages.  </p></div><div class="snippet textual-snippet text-snippet paragraphWidth">  <p>I'd also be interested if you have ideas for other applications of sceneries or features you'd like to see.  </p></div><figure class="snippet picture-snippet fullWidth"><img class="picture-snippet-image" src="gt-figures/1007.png"/></figure><div class="snippet textual-snippet text-snippet paragraphWidth"></div>
+
+                <!-- page content end -->
+            </main>
+        </div>
+    </div>
+
+    <footer class="text-center py-5 le-footer">
+        <p class="le-footer-credits">
+            Powered by <a class="le-footer-link" href="https://lepiter.com">Lepiter</a> | <a class="le-footer-link" href="https://feenk.com/privacy">Privacy Policy</a>
+        </p>
+    </footer>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="../assets/vendor/jquery/js/jquery.js"></script>
+    <script type="text/javascript" src="../assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/datefns.min.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/highlight.pack.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/lepiter-common.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/lepiter-snippets.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/lepiter-time.js"></script>
+</body>
+</html>
