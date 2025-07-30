@@ -285,7 +285,7 @@ See also: [Dagstuhls I have attended](/dagstuhl).
 
 ## 2000
 
-- *Sabbatical *at Tokyo Institute of Technology (June 2000 - March 2001)
+- *Sabbatical* at Tokyo Institute of Technology (June 2000 - March 2001)
 - *Co-organizer* [ECOOP 2000 workshop: Pervasive Component Systems](http://ecoop2000.unice.fr/Program/Technical/Workshops/w22.html) &#8212; Sophia Antipolis, June 12, 2000
 -  *PC member* of ICSE 2000 (The 22d International Conference on Software Engineering &#8212; Limerick, Ireland, June 4-11, 2000)
 - *Co-organizer* [Agent Technology Spring School](http://www.iam.unibe.ch/~scg/AgentTechnology/) &#8212; Lenk, Switzerland, March 6-10, 2000
