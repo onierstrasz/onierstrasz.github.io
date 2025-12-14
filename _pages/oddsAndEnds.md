@@ -10,3 +10,4 @@ author_profile: true
 - [About the name Nierstraß](https://www.family.nierstrasz.org/nierstrass): About the family name and its origins
 - [My webpage from 1999](http://web.archive.org/web/19990210095953/http://www.iam.unibe.ch/~oscar/): Thanks to the [Wayback Machine](http://web.archive.org)
 - [Open source photo](/oscarOpenSourcePicture): A picture you may use if you are advertising a talk I am giving
+- [Some random recipes](/Recipes/)
