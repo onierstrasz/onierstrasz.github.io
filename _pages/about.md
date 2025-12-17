@@ -26,6 +26,6 @@ There is now also a followup paper on [Example-driven development: bridging test
 
 ## Upcoming events
 
-- *PC Member* of [Onward! Essays](https://2025.splashcon.org/track/splash-2025-Onward-Essays) (co-located with [SPLASH 2025](https://2025.splashcon.org) &mdash; Singapore, Oct. 12-18, 2025)
+- *Participant* on [Bellairs 2026 1st Workshop on Continuous Software Engineering](https://bellairs2026.ece.mcgill.ca) (Barbados, Feb. 27-Mar. 6, 2026)
 
 See also: [Past events](/past)
