@@ -26,6 +26,6 @@ There is now also a followup paper on [Example-driven development: bridging test
 
 ## Upcoming events
 
-- *Participant* on [Bellairs 2026 1st Workshop on Continuous Software Engineering](https://bellairs2026.ece.mcgill.ca) (Barbados, Feb. 27-Mar. 6, 2026)
+- *Participant* in the [Bellairs 2026 1st Workshop on Continuous Software Engineering](https://bellairs2026.ece.mcgill.ca) (Barbados, Feb. 27-Mar. 6, 2026)
 
 See also: [Past events](/past)
