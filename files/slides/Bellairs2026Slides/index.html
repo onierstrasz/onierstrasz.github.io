@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bellairs2026Slides</title>
+
+    <!-- browser setup -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <!-- page meta information -->
+    <meta name="description" content="Hi. I'm Oscar Nierstrasz. I'm a retired Professor at the University of Bern.">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="gtoolkit book">
+    <meta property="og:title" content="Bellairs2026Slides">
+    <meta property="og:url" content="https://book.gtoolkit.com/index.html">
+    <meta property="og:description" content="Hi. I'm Oscar Nierstrasz. I'm a retired Professor at the University of Bern.">
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="../assets/vendor/awesomefonts/css/all.css">
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/v1/src/css/lepiter-common.css">
+    <link rel="stylesheet" href="../assets/v1/src/css/lepiter-snippets.css">
+    <link rel="stylesheet" href="../assets/v1/src/css/vs.css">
+</head>
+<body>
+
+    <div class="content">
+        <div class="container min-height py-5 le-main-container">
+            <main>
+                <h1 class="le-main-title">Bellairs2026Slides</h1>
+
+                <!-- page content start -->
+
+                <div class="snippet textual-snippet text-snippet paragraphWidth">
+					  <h2 id="applying-moldable-development-to-the-bellairs-workshop-web-pages">
+    <a href="#applying-moldable-development-to-the-bellairs-workshop-web-pages">
+ Applying Moldable Development to the Bellairs workshop web pages
+    </a>
+  </h2>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+Hi. I'm Oscar Nierstrasz. I'm a retired Professor at the University of Bern.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+I've been working the past few years for feenk, a company specialized in modernizing legacy systems. We use a process called “Moldable Development” to make software systems explainable. Rather than just talk about it, I'd like to show you how it works by applying it to the Bellairs workshop web pages.
+  </p>
+</div>
+<figure class="snippet picture-snippet fullWidth">
+<img class="picture-snippet-image" src="gt-figures/1000.png"/>
+</figure>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <h2 id="what-is-this-workshop">
+    <a href="#what-is-this-workshop">
+ What is this workshop?
+    </a>
+  </h2>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+When Gunter invited me to this year's workshop, I had lots of questions.
+- What is the history of this workshop?
+- What topics have been addressed over time?
+- Who are the organizers?
+- Who has participated regularly over the years?
+  </p>
+</div>
+<figure class="snippet picture-snippet fullWidth">
+<img class="picture-snippet-image" src="gt-figures/1001.png"/>
+</figure>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <h2 id="legacy-bellairs-participant-web-pages">
+    <a href="#legacy-bellairs-participant-web-pages">
+ Legacy Bellairs participant web pages
+    </a>
+  </h2>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+Luckily I could find a bunch of legacy web pages of past events.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+Clicking around I can see who participated in a given year, but I cannot get an overview of who was a repeat participant, who were the organizers, and so on. I am stuck with the views that were hard-coded in the web pages.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+BTW, notice that what we see here at the right is actually an object inspector on a <code>ZnUrl</code> object. You might not recognize it as such because you are probably used to seeing just the     <i>
+Raw
+    </i>
+ view here.
+  </p>
+</div>
+<figure class="snippet picture-snippet fullWidth">
+<img class="picture-snippet-image" src="gt-figures/1002.png"/>
+</figure>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+- Show the Webpage view of a few urls.
+- Show the raw view.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <h2 id="the-html-source-code-looks-pretty-regular">
+    <a href="#the-html-source-code-looks-pretty-regular">
+ The HTML source code looks pretty regular
+    </a>
+  </h2>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+If we take a closer look at the source code of the web pages, we discover that they are formatted consistently over the years. Maybe we can exploit this fact to extract the raw data.
+  </p>
+</div>
+<figure class="snippet picture-snippet fullWidth">
+<img class="picture-snippet-image" src="gt-figures/1003.png"/>
+</figure>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <h2 id="parsing-the-bellairs-participants-pages">
+    <a href="#parsing-the-bellairs-participants-pages">
+ Parsing the Bellairs participants pages
+    </a>
+  </h2>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+This sounds like a job for an island parser! We start by caching all the files and extracting their contents, line by line. By the way, please note that this is just an object inspector on an <code>Array</code> of <code>ByteString</code> objects.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+We incrementally build a tiny island parser using PetitParser, a PEG-based scannerless parser framework. In the     <i>
+Tree
+    </i>
+ view of the parser instance we can see how the parser is composed of a bunch of smaller parsers. In the     <i>
+Meta
+    </i>
+ view we see how each component parser picks up some piece of information from the source lines. Luckily the input is highly regular, so we have only very few special cases to handle. Each parser component either returns a dictionary of the values found, or nil.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+Notice that again what we see at the right is just an object inspector, but instead of having just the usual     <i>
+Raw
+    </i>
+ view, we have views specific to the context of a parser object, such as the     <i>
+Tree
+    </i>
+ view.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+The whole parser is less than 100 lines of code, and was iteratively developed with minimal effort.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+We apply the parser to all the lines, collect the non-empty dictionaries, and turn that into a JSON object. Once again, we are inspecting a <code>GtJson</code> object at the right, decorated with some views specific to JSONs.
+  </p>
+</div>
+<figure class="snippet picture-snippet fullWidth">
+<img class="picture-snippet-image" src="gt-figures/1004.png"/>
+</figure>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+- Inspect each of the three snippets in turn.
+- Dive into some of the strings of the array of lines.
+- Show the     <i>
+Tree
+    </i>
+ view and     <i>
+Meta
+    </i>
+ view ofthe parser.
+- Show The two JSON-specific views.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <h2 id="modeling-the-bellairs-domain-objects">
+    <a href="#modeling-the-bellairs-domain-objects">
+ Modeling the Bellairs domain objects
+    </a>
+  </h2>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+Now from the data we'd like to model the following domain entities: The Bellairs registry knows about a bunch of workshops, each of which has a bunch of participations listed on the websites. Each participation is for a person (possibly an organizer) with an affiliation to an institution in some country.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+For  example, on participation is that of Benoit in 2018.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+The idea is that each of these domain objects is just a thin wrapper around the data we have extracted. For example, the participation object just wraps the dictionary we have extracted as JSON from one of the webpages.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+The registry itself wraps the entire extracted JSON, so we can use it to look anything up.
+  </p>
+</div>
+<figure class="snippet picture-snippet fullWidth">
+<img class="picture-snippet-image" src="gt-figures/1005.png"/>
+</figure>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+- Inspect the participation example.
+- Go to the Raw view to show the wrapped dictionary data.
+- Click on the registry example and show the Raw view withe the JSON and the dictionaries for looking up persons etc.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <h2 id="exploring-the-bellairs-data">
+    <a href="#exploring-the-bellairs-data">
+ Exploring the Bellairs data
+    </a>
+  </h2>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+Now that we have wrapped the extracted data into domain entities, we can     <i>
+mold
+    </i>
+ them with little contextual tools to answer the questions we have about them.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+What are the topics of the various workshops? We see them here, and we can dive into the details.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+Who attended? We see who they were and how often they attended.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+Who were the organizers? Always the same Gang of Five.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+Which countries are the participants from? Canada, France and Germany are the big winners. Curiously it seems only one person ever attended from the USA.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+And who attended which workshops? Here we see a graph of all attendees with organizers highlighted in red. We can also dive into 2026 and see who at this workshop attended which workshops in the past. Now we can clearly see that there is a cohort of old timers, as well as a large batch of newcomers.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+OK, let's take a step back and consider what we have seen. First of all, we wrapped some data to create domain objects. Then we     <i>
+molded
+    </i>
+ these objects to answer questions we had. Note that everything we have seen are just object inspectors on domain objects. Each     <i>
+view
+    </i>
+ is a little, contextual tool.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+Let's take a look at the implementation of some of these views. Don't pay too much attention to the details, but note that they are all pretty similar, boilerplate code. In fact, many of these can be generated automatically as we explore the domain objects.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+The only view that is a little bit specialized is the graph visualization, but as we see, this is also specified in a just a few lines of code.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+In addition to contextual views, we can also have contextual actions, such as opening a webpage or extracting a CSV.
+And we can have contextual searches as well.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+So far I have only shown you that we can mold the object inspector, but the other IDE tools are moldable as well, such as the code editor and the debugger.
+  </p>
+</div>
+<figure class="snippet picture-snippet fullWidth">
+<img class="picture-snippet-image" src="gt-figures/1006.png"/>
+</figure>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+- Show the     <i>
+Workshops
+    </i>
+ and other views in sequence.
+- Show the code of the first few views.
+- Show the code of the     <i>
+Graph
+    </i>
+ view with the mondrian code.
+- Show the actions of the 2026 workshop, and select CSV and webpage.
+- Open the CSV into the O/S (in Excel).
+- Open the search tool and select "Sw".
+- Open a class Coder and show some of the views.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <h2 id="summary">
+    <a href="#summary">
+ Summary
+    </a>
+  </h2>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+Summing up, moldable development is a way to make software systems explainable by making it cheap to create lots of tiny contextual tools that adapt the IDE tools to answer question you have about the domain.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+No matter what the domain, whether it be static data, log files, legacy code, a running system, a web API, or whatever, the moldable development process is the same: extract objects, ask questions, create contextual tools, repeat.
+  </p>
+</div>
+<figure class="snippet picture-snippet fullWidth">
+<img class="picture-snippet-image" src="gt-figures/1007.png"/>
+</figure>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <h2 id="exploring-the-slideshow">
+    <a href="#exploring-the-slideshow">
+ Exploring the slideshow
+    </a>
+  </h2>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+I'd  like to emphasize that GT is itself built using moldable development, and contains literally thousands of tiny, contextual tools to make GT itself explainable..
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+As a closing example, consider that this slideshow itself is just a moldable object within GT. The slideshow authoring environment is nothing but an object inspector on a slideshow instance decorated with contextual views, actions and searches. Here's the code of this slide.
+  </p>
+</div>
+<figure class="snippet picture-snippet fullWidth">
+<img class="picture-snippet-image" src="gt-figures/1008.png"/>
+</figure>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+
+— Show several of the views in sequence.
+— Click on this slide to show its code.
+  </p>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <h2 id="what-s-next">
+    <a href="#what-s-next">
+ What's next?
+    </a>
+  </h2>
+</div>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+  <p>
+Glamorous Toolkoit is an open-source which we fund through contracts with customers. If you're interested in learning more, talk to me, or download it and try it yourself.
+  </p>
+</div>
+<figure class="snippet picture-snippet fullWidth">
+<img class="picture-snippet-image" src="gt-figures/1009.png"/>
+</figure>
+<div class="snippet textual-snippet text-snippet paragraphWidth">
+</div>
+
+
+                <!-- page content end -->
+            </main>
+        </div>
+    </div>
+
+    <footer class="text-center py-5 le-footer">
+        <p class="le-footer-credits">
+            Powered by <a class="le-footer-link" href="https://lepiter.com">Lepiter</a> | <a class="le-footer-link" href="https://feenk.com/privacy">Privacy Policy</a>
+        </p>
+    </footer>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="../assets/vendor/jquery/js/jquery.js"></script>
+    <script type="text/javascript" src="../assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/datefns.min.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/highlight.pack.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/lepiter-common.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/lepiter-snippets.js"></script>
+    <script type="text/javascript" src="../assets/v1/src/js/lepiter-time.js"></script>
+</body>
+</html>
