@@ -14,4 +14,6 @@ Presentation at [VISSOFT 2026](https://vissoft.io/2026) (Benevento, Sept. 14-15,
 
 We reflect on how generative AI changes the creation of software visualizations, and why convincing outputs alone are not enough. Through live demonstrations, the talk shows how grounding LLMs in explicit domain models, executable examples, and cheap, composable interactive views makes both the generated visualizations and the AI’s reasoning inspectable. The aim is to turn AI from an opaque visualization generator into an evidence-oriented collaborator that supports exploration, validation, critique, and improvement.
 
-[Annotated slides](https://www.oscar.nierstrasz.org/files/slides/EDDSlideshow/)
+[Annotated slides](https://www.oscar.nierstrasz.org/files/slides/VISSOFT2026Slideshow/)
+
+[Arxiv preprint](https://scg.unibe.ch/assets/scgbib/?query=Meri26a)
