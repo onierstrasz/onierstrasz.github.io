@@ -12,6 +12,10 @@ Oscar Nierstrasz is Professor emeritus of Computer Science at the [University of
 He retired from the University at the end of 2021, and is currently working at [feenk.com](https://feenk.com/about/) to support onboarding and teaching of moldable development.
 He is co-author of over 400 [publications](/publications), including the open-source books *[Object-Oriented Reengineering Patterns](/oorp/)* and *[Pharo by Example](http://books.pharo.org)*.
 
+# News
+
+An ArXiv paper preprint and PDF slides are available for my upcoming [VISSOFT](https://vissoft.io/2026/) talk on [Towards Actionable Visualization: Ten Years Later](/talks/2026-09-15-TowardsActionableVisualization-TenYearsLater) (Benevento, Sep. 14-15, 2026).
+
 ## Upcoming events
 
 - *Speaker* at [VISSOFT 2026](https://vissoft.io/2026/) -- [Towards Actionable Visualization: Ten Years Later](/talks/2026-09-15-TowardsActionableVisualization-TenYearsLater) (Benevento, Sep. 14-15, 2026)
