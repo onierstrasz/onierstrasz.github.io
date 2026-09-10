@@ -8,6 +8,12 @@ author_profile: true
 
 See also: [Dagstuhls I have attended](/dagstuhl).
 
+## 2026
+
+- *Speaker* at [VISSOFT 2026](https://vissoft.io/2026/) -- [Towards Actionable Visualization: Ten Years Later](/talks/2026-09-15-TowardsActionableVisualization-TenYearsLater) (Benevento, Sep. 14-15, 2026)
+
+- *Participant* in the [Bellairs 2026 1st Workshop on Continuous Software Engineering](https://bellairs2026.ece.mcgill.ca) (Barbados, Feb. 27-Mar. 6, 2026)
+
 ## 2024
 
 - *PC Member* of [Onward! Essays](https://2025.splashcon.org/track/splash-2025-Onward-Essays) (co-located with [SPLASH 2025](https://2025.splashcon.org) &mdash; Singapore, Oct. 12-18, 2025)
