@@ -12,20 +12,8 @@ Oscar Nierstrasz is Professor emeritus of Computer Science at the [University of
 He retired from the University at the end of 2021, and is currently working at [feenk.com](https://feenk.com/about/) to support onboarding and teaching of moldable development.
 He is co-author of over 400 [publications](/publications), including the open-source books *[Object-Oriented Reengineering Patterns](/oorp/)* and *[Pharo by Example](http://books.pharo.org)*.
 
-# News
-
-My YOW! 2024 tech talk on applying [Moldable Development in Practice &mdash; Patterns for Legacy Modernization](https://yowcon.com/melbourne-2024/speakers/3759/oscar-nierstrasz) is now [available on YouTube](https://youtu.be/F_-z0aC7Pnk).
-
-[Moldable Development Patterns](/publication/2024-07-03-Nier24a-MoldableDevelopmentPatterns) are a collection of mutually supporting patterns that explain how moldable development works in practice. The [arXiv preprint](https://arxiv.org/abs/2409.18811) is now available.
-
-[Moldable Exceptions](/publication/2024-10-23-Chis24a-MoldableExceptions) are a lightweight mechanism to adapt a debugger‘s interface based on contextual information provided by a raised exception.
-In addition to the [ACM publication](https://dl.acm.org/doi/10.1145/3689492.3690044), there is an [arXiv preprint](https://arxiv.org/abs/2409.00465) available.
-
-Read a blog post about [Example-Driven Development](/posts/2024-04-25-EDD), a variant of TDD in which you drive development by constructing test methods that return example objects.
-There is now also a followup paper on [Example-driven development: bridging tests and documentation](/publication/2024-10-21-Nier24b-Example-drivenDevelopment).
-
 ## Upcoming events
 
-- *Participant* in the [Bellairs 2026 1st Workshop on Continuous Software Engineering](https://bellairs2026.ece.mcgill.ca) (Barbados, Feb. 27-Mar. 6, 2026)
+- *Speaker* at [VISSOFT 2026](https://vissoft.io/2026/) -- [Towards Actionable Visualization: Ten Years Later](/talks/2026-09-15-TowardsActionableVisualization-TenYearsLater) (Benevento, Sep. 14-15, 2026)
 
 See also: [Past events](/past)
