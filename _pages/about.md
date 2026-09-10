@@ -14,7 +14,8 @@ He is co-author of over 400 [publications](/publications), including the open-so
 
 # News
 
-An ArXiv paper preprint and PDF slides are available for my upcoming [VISSOFT](https://vissoft.io/2026/) talk on [Towards Actionable Visualization: Ten Years Later](/talks/2026-09-15-TowardsActionableVisualization-TenYearsLater) (Benevento, Sep. 14-15, 2026).
+An [ArXiv paper preprint](https://arxiv.org/abs/2608.22151) and [PDF slides](https://www.oscar.nierstrasz.org/files/slides/VISSOFT2026Slideshow/)
+ are available for my upcoming [VISSOFT](https://vissoft.io/2026/) talk on [Towards Actionable Visualization: Ten Years Later](/talks/2026-09-15-TowardsActionableVisualization-TenYearsLater) (Benevento, Sep. 14-15, 2026).
 
 ## Upcoming events
 
